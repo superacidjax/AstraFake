@@ -11,6 +11,26 @@ module AndorraFaker
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.2
 
+    # Good Job Chron
+    config.good_job.enable_cron = ENV["DYNO"] == "worker.1"
+
+    config.good_job.enable_cron = true
+
+    # Configure cron with a hash that has a unique key for each recurring job
+    config.good_job.cron = {
+      # Every 15 minutes, enqueue `ExampleJob.set(priority: -10).perform_later(42, "life", name: "Alice")`
+      # frequent_task: { # each recurring job must have a unique key
+      #   cron: "*/15 * * * *", # cron-style scheduling format by fugit gem
+      #   class: "DataSenderJob", # name of the job class as a String; must reference an Active Job job class
+      #   description: "Data Sender Job", # optional description that appears in Dashboard
+      # },
+      production_task: {
+        cron: "*/15 * * * *", # cron-style scheduling format by fugit gem
+        class: "DataSenderJob",
+        enabled_by_default: -> { Rails.env.production? } # Only enable in production, otherwise can be enabled manually through Dashboard
+      }
+    }
+
     # Please, add to the `ignore` list any other `lib` subdirectories that do
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
     # Common ones are `templates`, `generators`, or `middleware`, for example.

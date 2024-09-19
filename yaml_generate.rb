@@ -20,7 +20,7 @@ class YamlPersonGenerator
         'traits' => {
           'firstName' => Faker::Name.first_name,
           'lastName' => Faker::Name.last_name,
-          'gender' => ['male', 'female'].sample,
+          'gender' => [ 'male', 'female' ].sample,
           'email' => Faker::Internet.email(domain: 'example.com'),
           'birthday' => Faker::Date.between(from: '1931-09-23', to: '2014-09-25').to_s,
           'phone' => Faker::PhoneNumber.cell_phone_in_e164,
@@ -83,55 +83,55 @@ class YamlEventGenerator
 
       event_type = event_types.sample
       event = case event_type
-              when 'New User Created'
+      when 'New User Created'
                 {
                   'event_type' => 'New User Created',
                   'user_id' => user_id,
                   'properties' => {
-                    'source' => ['self-serve', 'imported', 'employer'].sample
+                    'source' => [ 'self-serve', 'imported', 'employer' ].sample
                   },
                   'timestamp' => Faker::Time.between(from: Time.now - 3 * 365 * 24 * 60 * 60, to: Time.now).iso8601  # 3 years ago to now
                 }
-              when 'Screening Scheduled'
+      when 'Screening Scheduled'
                 {
                   'event_type' => 'Screening Scheduled',
                   'user_id' => user_id,
                   'properties' => {
                     'clinic_name' => Faker::Company.name,
                     'date_of_screening' => Faker::Time.between(from: Time.now, to: Time.now + 365 * 24 * 60 * 60).iso8601, # today to 1 year from now
-                    'screening_type' => ['Annual', 'Initial', 'Specialty'].sample
+                    'screening_type' => [ 'Annual', 'Initial', 'Specialty' ].sample
                   },
                   'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601  # 6 months ago to now
                 }
-              when 'Screening Completed'
+      when 'Screening Completed'
                 {
                   'event_type' => 'Screening Completed',
                   'user_id' => user_id,
                   'properties' => {
                     'clinic_name' => Faker::Company.name,
                     'date_of_completion' => Faker::Time.between(from: Time.now, to: Time.now + 365 * 24 * 60 * 60).iso8601,
-                    'screening_type' => ['Annual', 'Initial', 'Specialty'].sample
+                    'screening_type' => [ 'Annual', 'Initial', 'Specialty' ].sample
                   },
                   'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
                 }
-              when 'New Measurement'
-                measurement_types = ['BMI', 'blood pressure', 'weight', 'waist', 'glucose', 'a1c']
+      when 'New Measurement'
+                measurement_types = [ 'BMI', 'blood pressure', 'weight', 'waist', 'glucose', 'a1c' ]
                 measurement_type = measurement_types.sample
 
                 properties = case measurement_type
-                             when 'BMI'
+                when 'BMI'
                                { 'type' => 'BMI', 'bmi' => rand(17.0..41.0).round(2) }
-                             when 'blood pressure'
+                when 'blood pressure'
                                { 'type' => 'blood pressure', 'systolic' => rand(110..180), 'diastolic' => rand(60..110) }
-                             when 'weight'
+                when 'weight'
                                { 'type' => 'weight', 'weight_in_kg' => rand(35..130) }
-                             when 'waist'
+                when 'waist'
                                { 'type' => 'waist', 'waist_in_cm' => rand(50.0..114.0).round(2) }
-                             when 'glucose'
+                when 'glucose'
                                { 'type' => 'glucose', 'glucose' => rand(70..100).round(1) }
-                             when 'a1c'
+                when 'a1c'
                                { 'type' => 'a1c', 'a1c' => rand(4.0..8.0).round(2) }
-                             end
+                end
 
                 {
                   'event_type' => 'New Measurement',
@@ -141,7 +141,7 @@ class YamlEventGenerator
                   }),
                   'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
                 }
-              when 'Claim Received'
+      when 'Claim Received'
                 {
                   'event_type' => 'Claim Received',
                   'user_id' => user_id,
@@ -150,7 +150,7 @@ class YamlEventGenerator
                   },
                   'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
                 }
-              when 'Lab Received'
+      when 'Lab Received'
                 lab_tests = {
                   'CBC' => rand(50..200),
                   'Glucose' => rand(70..100).round(1),
@@ -167,23 +167,23 @@ class YamlEventGenerator
                   },
                   'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
                 }
-              when 'Form Received'
+      when 'Form Received'
                 {
                   'event_type' => 'Form Received',
                   'user_id' => user_id,
                   'properties' => {
-                    'type' => ['intake', 'medical record', 'release', 'other'].sample
+                    'type' => [ 'intake', 'medical record', 'release', 'other' ].sample
                   },
                   'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
                 }
-              when 'Incentive Achieved'
+      when 'Incentive Achieved'
                 {
                   'event_type' => 'Incentive Achieved',
                   'user_id' => user_id,
                   'properties' => {},
                   'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
                 }
-              end
+      end
 
       d['events'] << event
     end

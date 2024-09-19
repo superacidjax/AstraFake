@@ -7,6 +7,7 @@ gem "pg"
 gem "bootsnap", require: false
 gem "faker"
 gem "ostruct"
+gem "good_job"
 
 group :development, :test do
   gem "pry-rails"

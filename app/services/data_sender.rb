@@ -69,7 +69,7 @@ class DataSender
         "properties" => {
           "clinic_name" => Faker::Company.name,
           "date_of_completion" => Faker::Time.between(from: Time.now, to: 1.year.from_now).iso8601,
-          "screening_type" => ["Annual", "Initial", "Specialty"].sample
+          "screening_type" => [ "Annual", "Initial", "Specialty" ].sample
         },
         "timestamp" => Faker::Time.between(from: 6.months.ago, to: Time.now).iso8601
       }
@@ -94,7 +94,7 @@ class DataSender
         "timestamp" => Faker::Time.between(from: 6.months.ago, to: Time.now).iso8601
       }
     when "Lab Received"
-      test_type = ["CBC", "Glucose", "A1c"].sample
+      test_type = [ "CBC", "Glucose", "A1c" ].sample
       {
         "event_type" => "Lab Received",
         "user_id" => user_id,
