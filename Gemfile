@@ -10,6 +10,7 @@ gem "ostruct"
 gem "good_job"
 
 group :development, :test do
+  gem "brakeman", require: false
   gem "pry-rails"
   gem "rubocop-rails-omakase", require: false
 end
