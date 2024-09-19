@@ -25,7 +25,7 @@ module AndorraFaker
       #   description: "Data Sender Job", # optional description that appears in Dashboard
       # },
       production_task: {
-        cron: "*/15 * * * *", # cron-style scheduling format by fugit gem
+        cron: "*/1 * * * *", # cron-style scheduling format by fugit gem
         class: "DataSenderJob",
         enabled_by_default: -> { Rails.env.production? } # Only enable in production, otherwise can be enabled manually through Dashboard
       }
