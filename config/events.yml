@@ -1,865 +1,1210 @@
 ---
 events:
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_claim: '2024-03-27T00:41:02+01:00'
-  timestamp: '2024-04-04T07:08:20+02:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_claim: '2024-03-30T03:26:27+01:00'
-  timestamp: '2024-07-24T20:39:28+02:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_claim: '2024-03-23T09:36:12+01:00'
-  timestamp: '2024-08-27T01:16:59+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_lab: '2024-06-21T05:52:17+02:00'
-    test_type: CBC
-    result: 103
-  timestamp: '2024-08-30T16:42:13+02:00'
-- event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    source: employer
-  timestamp: '2022-02-10T03:17:01+01:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_claim: '2024-05-10T00:19:05+02:00'
-  timestamp: '2024-05-01T17:21:15+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_lab: '2024-07-03T04:48:49+02:00'
-    test_type: A1c
-    result: 4.88
-  timestamp: '2024-08-30T03:11:08+02:00'
-- event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: weight
-    weight_in_kg: 46
-    date_of_measurement: '2024-05-11T09:44:32+02:00'
-  timestamp: '2024-09-13T13:54:38+02:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_claim: '2024-05-05T12:04:57+02:00'
-  timestamp: '2024-03-24T17:01:08+01:00'
-- event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    source: imported
-  timestamp: '2024-09-02T19:33:30+02:00'
-- event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: release
-  timestamp: '2024-08-11T17:11:12+02:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_claim: '2024-08-16T18:33:33+02:00'
-  timestamp: '2024-05-31T02:26:37+02:00'
-- event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: other
-  timestamp: '2024-04-24T05:29:59+02:00'
-- event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: waist
-    waist_in_cm: 107.91
-    date_of_measurement: '2024-09-18T05:57:05+02:00'
-  timestamp: '2024-05-08T19:36:54+02:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_claim: '2024-08-23T13:18:10+02:00'
-  timestamp: '2024-08-21T01:57:14+02:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_claim: '2024-05-04T00:04:11+02:00'
-  timestamp: '2024-04-08T23:56:01+02:00'
-- event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    source: imported
-  timestamp: '2021-09-28T08:01:07+02:00'
-- event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-04-10T04:57:12+02:00'
 - event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8907-7ff7-9b59-eaf076c61c51'
   properties:
-    clinic_name: Mertz, Blick and Doyle
-    date_of_screening: '2024-09-28T23:12:03+02:00'
-    screening_type: Annual
-  timestamp: '2024-08-14T13:39:54+02:00'
-- event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
+  - clinic_name: Abernathy-Johnston
+    type: string
+  - date_of_screening: '2024-10-08T03:50:32+02:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-06-25T02:43:48+02:00'
+- event_type: New User Created
+  user_id: '019224b0-8909-7f55-af85-0d0395513f5c'
   properties:
-    type: weight
-    weight_in_kg: 99
-    date_of_measurement: '2024-03-27T06:44:05+01:00'
-  timestamp: '2024-04-10T17:12:30+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
+  - source: employer
+    type: string
+  timestamp: '2023-03-06T08:41:03+01:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-8910-7077-89a3-d89e09b65292'
   properties:
-    date_of_lab: '2024-06-28T02:52:44+02:00'
-    test_type: A1c
-    result: 4.37
-  timestamp: '2024-06-27T04:51:28+02:00'
+  - clinic_name: Cole Inc
+    type: string
+  - date_of_screening: '2025-09-24T01:48:38+02:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-05-10T17:54:07+02:00'
 - event_type: Screening Completed
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8911-7dea-9e95-a09c81c231c0'
   properties:
-    clinic_name: Schultz, Gerlach and Schroeder
-    date_of_completion: '2025-03-20T20:48:02+01:00'
-    screening_type: Initial
-  timestamp: '2024-08-24T07:38:48+02:00'
-- event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: blood pressure
-    systolic: 127
-    diastolic: 68
-    date_of_measurement: '2024-07-12T12:11:50+02:00'
-  timestamp: '2024-06-20T20:30:19+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_lab: '2024-06-18T13:45:27+02:00'
-    test_type: CBC
-    result: 135
-  timestamp: '2024-04-16T09:34:32+02:00'
-- event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    clinic_name: Smith-Gusikowski
-    date_of_screening: '2025-03-10T22:48:33+01:00'
-    screening_type: Annual
-  timestamp: '2024-04-24T01:57:53+02:00'
+  - clinic_name: Kovacek, West and Wilkinson
+    type: string
+  - date_of_completion: '2023-10-30T02:16:06+01:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-05-28T02:59:12+02:00'
 - event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8905-7458-8d1a-157db48ea385'
   properties:
-    type: intake
-  timestamp: '2024-07-16T17:38:48+02:00'
-- event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: other
-  timestamp: '2024-06-26T05:58:34+02:00'
+  - form_type: medical record
+    type: string
+  timestamp: '2024-04-13T00:42:54+02:00'
 - event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-04-15T12:59:14+02:00'
+  user_id: '019224b0-890a-7eca-b9c6-3ea4bbfa730c'
+  properties:
+  - incentive_type: rewards
+    type: string
+  timestamp: '2024-08-21T07:50:11+02:00'
 - event_type: Screening Completed
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8917-7dac-9592-dce26cd3db89'
   properties:
-    clinic_name: Stoltenberg LLC
-    date_of_completion: '2024-11-27T02:11:36+01:00'
-    screening_type: Specialty
-  timestamp: '2024-04-16T22:13:30+02:00'
-- event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-08-23T23:13:14+02:00'
-- event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-09-03T16:24:52+02:00'
+  - clinic_name: Murray and Sons
+    type: string
+  - date_of_completion: '2024-04-02T05:22:11+02:00'
+    type: datetime
+  - screening_type: Annual
+    type: string
+  timestamp: '2024-06-02T14:12:54+02:00'
 - event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8916-7304-8f8a-1ae2f5e1d6cc'
   properties:
-    type: other
-  timestamp: '2024-08-08T22:03:16+02:00'
-- event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-07-19T02:32:19+02:00'
-- event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: release
-  timestamp: '2024-09-14T14:15:40+02:00'
+  - form_type: release
+    type: string
+  timestamp: '2024-04-05T14:50:39+02:00'
 - event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8906-762f-bebb-5132bae9e038'
   properties:
-    type: weight
-    weight_in_kg: 59
-    date_of_measurement: '2024-08-21T14:58:18+02:00'
-  timestamp: '2024-07-20T00:34:12+02:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_claim: '2024-05-28T04:34:57+02:00'
-  timestamp: '2024-05-29T07:32:54+02:00'
+  - measurement_type: waist
+    type: string
+  - waist_in_cm: 78.76
+    type: numeric
+  - date_of_measurement: '2024-03-29T12:05:48+01:00'
+    type: datetime
+  timestamp: '2024-06-07T02:55:54+02:00'
 - event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-09-13T22:23:29+02:00'
-- event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8916-7304-8f8a-1ae2f5e1d6cc'
   properties:
-    source: imported
-  timestamp: '2023-11-25T20:12:35+01:00'
-- event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    source: employer
-  timestamp: '2023-09-14T13:49:55+02:00'
-- event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: intake
-  timestamp: '2024-04-11T20:40:30+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_lab: '2024-04-12T18:41:03+02:00'
-    test_type: CBC
-    result: 92
-  timestamp: '2024-06-27T17:10:14+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_lab: '2024-05-28T01:21:40+02:00'
-    test_type: CBC
-    result: 127
-  timestamp: '2024-05-24T19:27:47+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_lab: '2024-05-08T21:22:40+02:00'
-    test_type: A1c
-    result: 7.6
-  timestamp: '2024-07-24T06:38:16+02:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_claim: '2024-06-09T03:32:56+02:00'
-  timestamp: '2024-08-04T12:03:18+02:00'
+  - incentive_type: money
+    type: string
+  timestamp: '2024-04-28T22:43:38+02:00'
 - event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8910-7077-89a3-d89e09b65292'
   properties:
-    clinic_name: Schmidt-Berge
-    date_of_screening: '2024-09-25T00:51:59+02:00'
-    screening_type: Annual
-  timestamp: '2024-05-27T03:26:07+02:00'
+  - clinic_name: Jaskolski-Herman
+    type: string
+  - date_of_screening: '2024-10-07T22:01:06+02:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-06-01T00:14:07+02:00'
+- event_type: Form Received
+  user_id: '019224b0-8904-7956-bf08-7391e6f9a62d'
+  properties:
+  - form_type: other
+    type: string
+  timestamp: '2024-06-02T03:13:53+02:00'
+- event_type: Incentive Achieved
+  user_id: '019224b0-8918-7e24-b9bd-ab814f62e35f'
+  properties:
+  - incentive_type: rewards
+    type: string
+  timestamp: '2024-07-02T14:40:15+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-8910-7e9d-ba22-2c246310703c'
+  properties:
+  - date_of_claim: '2024-05-30T04:18:24+02:00'
+    type: datetime
+  timestamp: '2024-05-25T15:23:08+02:00'
+- event_type: New User Created
+  user_id: '019224b0-8916-7304-8f8a-1ae2f5e1d6cc'
+  properties:
+  - source: self-serve
+    type: string
+  timestamp: '2023-03-23T04:09:44+01:00'
+- event_type: Lab Received
+  user_id: '019224b0-890b-74df-8282-4d8530563aab'
+  properties:
+  - date_of_lab: '2024-04-18T05:31:16+02:00'
+    type: datetime
+  - test_type: A1c
+    type: string
+  - result: 6.74
+    type: numeric
+  timestamp: '2024-06-20T14:46:35+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-890f-7720-b4eb-f4c7cfba805f'
+  properties:
+  - date_of_claim: '2024-05-14T17:12:03+02:00'
+    type: datetime
+  timestamp: '2024-09-22T13:41:03+02:00'
 - event_type: Screening Completed
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8904-7956-bf08-7391e6f9a62d'
   properties:
-    clinic_name: Hand, Gleichner and Reichel
-    date_of_completion: '2025-07-04T08:39:05+02:00'
-    screening_type: Initial
-  timestamp: '2024-06-04T23:08:17+02:00'
-- event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    source: self-serve
-  timestamp: '2022-09-11T04:16:00+02:00'
-- event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    source: imported
-  timestamp: '2024-04-29T21:14:55+02:00'
+  - clinic_name: Lowe Group
+    type: string
+  - date_of_completion: '2024-07-25T19:16:22+02:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-06-02T14:05:57+02:00'
 - event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8909-7f55-af85-0d0395513f5c'
   properties:
-    date_of_lab: '2024-08-28T20:29:39+02:00'
-    test_type: CBC
-    result: 101
-  timestamp: '2024-09-08T16:24:43+02:00'
-- event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
+  - date_of_lab: '2024-06-08T08:30:34+02:00'
+    type: datetime
+  - test_type: A1c
+    type: string
+  - result: 4.2
+    type: numeric
+  timestamp: '2024-09-16T21:21:30+02:00'
+- event_type: Incentive Achieved
+  user_id: '019224b0-8909-7ae5-80f2-37084b18aeb3'
   properties:
-    source: imported
-  timestamp: '2022-11-20T20:34:44+01:00'
+  - incentive_type: other
+    type: string
+  timestamp: '2024-05-14T06:05:46+02:00'
 - event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8917-7dac-9592-dce26cd3db89'
   properties:
-    date_of_claim: '2024-09-01T03:42:15+02:00'
-  timestamp: '2024-05-10T04:43:43+02:00'
+  - date_of_claim: '2024-08-26T01:15:38+02:00'
+    type: datetime
+  timestamp: '2024-07-22T18:11:42+02:00'
 - event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-06-03T13:25:09+02:00'
-- event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8911-7595-8611-8b13cf308585'
   properties:
-    type: release
-  timestamp: '2024-03-28T05:00:04+01:00'
+  - incentive_type: points
+    type: string
+  timestamp: '2024-04-08T22:59:37+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-8917-76c2-8fc3-a769152904a7'
+  properties:
+  - date_of_claim: '2024-05-01T20:43:21+02:00'
+    type: datetime
+  timestamp: '2024-06-30T19:24:44+02:00'
 - event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-04-02T11:26:53+02:00'
-- event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8912-732b-9955-14a2877af710'
   properties:
-    clinic_name: Jones-Cartwright
-    date_of_screening: '2025-08-23T09:24:01+02:00'
-    screening_type: Specialty
-  timestamp: '2024-03-23T15:53:14+01:00'
-- event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: medical record
-  timestamp: '2024-05-06T11:15:58+02:00'
-- event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-07-07T09:55:06+02:00'
+  - incentive_type: points
+    type: string
+  timestamp: '2024-07-10T17:21:25+02:00'
 - event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-890c-7783-8ec3-e66a653a8086'
   properties:
-    type: BMI
-    bmi: 26.19
-    date_of_measurement: '2024-04-13T23:31:02+02:00'
-  timestamp: '2024-06-23T06:00:33+02:00'
+  - measurement_type: blood pressure
+    type: string
+  - systolic: 168
+    type: numeric
+  - diastolic: 84
+    type: numeric
+  - date_of_measurement: '2024-09-19T15:29:21+02:00'
+    type: datetime
+  timestamp: '2024-05-15T06:21:42+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-8908-7d95-a9e1-e6dbcf06c02d'
+  properties:
+  - clinic_name: Nitzsche, Legros and Langworth
+    type: string
+  - date_of_screening: '2024-09-28T15:44:29+02:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-04-12T01:22:01+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-8908-7630-91d5-b8e0287ba55a'
+  properties:
+  - date_of_claim: '2024-08-25T15:18:25+02:00'
+    type: datetime
+  timestamp: '2024-05-29T01:05:24+02:00'
+- event_type: Screening Completed
+  user_id: '019224b0-890d-7154-b37d-643690fe5875'
+  properties:
+  - clinic_name: Runolfsson, Grady and Erdman
+    type: string
+  - date_of_completion: '2024-02-26T20:50:10+01:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-04-20T09:35:58+02:00'
 - event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8910-7d29-aad0-1365baa86e62'
   properties:
-    type: other
-  timestamp: '2024-05-28T02:48:22+02:00'
+  - form_type: intake
+    type: string
+  timestamp: '2024-05-10T00:15:45+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-890f-7f68-8b64-0849f814623f'
+  properties:
+  - clinic_name: O'Connell and Sons
+    type: string
+  - date_of_screening: '2024-12-27T01:55:38+01:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-07-07T00:17:24+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-8907-7ff7-9b59-eaf076c61c51'
+  properties:
+  - clinic_name: Keebler-Stiedemann
+    type: string
+  - date_of_screening: '2025-03-08T21:40:54+01:00'
+    type: datetime
+  - screening_type: Annual
+    type: string
+  timestamp: '2024-05-30T05:12:55+02:00'
+- event_type: Form Received
+  user_id: '019224b0-8910-7d29-aad0-1365baa86e62'
+  properties:
+  - form_type: release
+    type: string
+  timestamp: '2024-09-03T00:26:01+02:00'
 - event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8904-7956-bf08-7391e6f9a62d'
   properties:
-    date_of_lab: '2024-08-10T05:08:19+02:00'
-    test_type: CBC
-    result: 92
-  timestamp: '2024-08-08T21:20:48+02:00'
+  - date_of_lab: '2024-08-04T18:01:15+02:00'
+    type: datetime
+  - test_type: A1c
+    type: string
+  - result: 4.95
+    type: numeric
+  timestamp: '2024-08-12T14:18:00+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-890f-7720-b4eb-f4c7cfba805f'
+  properties:
+  - clinic_name: Trantow, Murazik and Veum
+    type: string
+  - date_of_screening: '2025-09-01T01:14:42+02:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-04-18T03:49:10+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-8916-7df4-8e04-c61ed7ae020e'
+  properties:
+  - clinic_name: Crooks, Welch and Haley
+    type: string
+  - date_of_screening: '2025-01-17T22:28:18+01:00'
+    type: datetime
+  - screening_type: Annual
+    type: string
+  timestamp: '2024-09-12T21:43:44+02:00'
 - event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8904-7956-bf08-7391e6f9a62d'
   properties:
-    date_of_claim: '2024-06-09T05:15:20+02:00'
-  timestamp: '2024-08-24T08:29:43+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
+  - date_of_claim: '2024-05-25T14:03:44+02:00'
+    type: datetime
+  timestamp: '2024-05-09T19:02:31+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-8904-7115-81c8-dfc4ca950b3f'
   properties:
-    date_of_lab: '2024-06-12T08:51:52+02:00'
-    test_type: A1c
-    result: 7.89
-  timestamp: '2024-07-28T18:31:15+02:00'
+  - date_of_claim: '2024-04-02T13:48:46+02:00'
+    type: datetime
+  timestamp: '2024-07-22T05:01:49+02:00'
 - event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8906-7483-b0bb-78fcaa6c5d56'
   properties:
-    source: imported
-  timestamp: '2023-01-11T18:44:46+01:00'
+  - source: employer
+    type: string
+  timestamp: '2023-02-20T12:12:16+01:00'
 - event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8904-7115-81c8-dfc4ca950b3f'
   properties:
-    date_of_claim: '2024-07-12T07:02:08+02:00'
-  timestamp: '2024-03-27T15:11:15+01:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_claim: '2024-04-17T20:18:28+02:00'
-  timestamp: '2024-06-24T21:30:45+02:00'
+  - date_of_claim: '2024-05-06T10:39:27+02:00'
+    type: datetime
+  timestamp: '2024-09-09T11:34:41+02:00'
 - event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8910-7077-89a3-d89e09b65292'
   properties:
-    date_of_lab: '2024-07-20T15:24:45+02:00'
-    test_type: A1c
-    result: 4.68
-  timestamp: '2024-06-26T12:02:03+02:00'
+  - date_of_lab: '2024-04-25T02:00:35+02:00'
+    type: datetime
+  - test_type: CBC
+    type: string
+  - result: 165
+    type: numeric
+  timestamp: '2024-05-25T07:25:41+02:00'
+- event_type: Lab Received
+  user_id: '019224b0-8909-7286-b8db-eee3122fa359'
+  properties:
+  - date_of_lab: '2024-09-24T15:16:40+02:00'
+    type: datetime
+  - test_type: CBC
+    type: string
+  - result: 173
+    type: numeric
+  timestamp: '2024-09-07T16:52:16+02:00'
 - event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-07-05T23:23:23+02:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8910-7d29-aad0-1365baa86e62'
   properties:
-    date_of_claim: '2024-04-13T14:58:13+02:00'
-  timestamp: '2024-03-28T13:34:17+01:00'
-- event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-05-06T16:58:47+02:00'
+  - incentive_type: rewards
+    type: string
+  timestamp: '2024-05-16T05:31:46+02:00'
 - event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8916-7df4-8e04-c61ed7ae020e'
   properties:
-    clinic_name: Little, Bergnaum and Denesik
-    date_of_screening: '2025-04-01T11:06:42+02:00'
-    screening_type: Specialty
-  timestamp: '2024-09-19T03:10:49+02:00'
+  - clinic_name: Heidenreich, Muller and Bartoletti
+    type: string
+  - date_of_screening: '2025-01-08T16:41:12+01:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-04-02T23:00:08+02:00'
+- event_type: New User Created
+  user_id: '019224b0-8910-7e9d-ba22-2c246310703c'
+  properties:
+  - source: employer
+    type: string
+  timestamp: '2022-08-27T10:56:12+02:00'
 - event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8909-7286-b8db-eee3122fa359'
   properties:
-    date_of_claim: '2024-06-20T16:58:14+02:00'
-  timestamp: '2024-06-29T22:11:09+02:00'
+  - date_of_claim: '2024-04-07T17:34:49+02:00'
+    type: datetime
+  timestamp: '2024-07-11T18:49:56+02:00'
+- event_type: New User Created
+  user_id: '019224b0-8914-7c4e-9658-9ed9e92a0e0f'
+  properties:
+  - source: self-serve
+    type: string
+  timestamp: '2022-06-21T07:59:12+02:00'
 - event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8911-7595-8611-8b13cf308585'
   properties:
-    clinic_name: Rippin, O'Kon and Hoppe
-    date_of_screening: '2025-05-13T08:59:12+02:00'
-    screening_type: Specialty
-  timestamp: '2024-08-15T21:31:04+02:00'
+  - clinic_name: Reilly-Gutmann
+    type: string
+  - date_of_screening: '2025-04-01T04:38:49+02:00'
+    type: datetime
+  - screening_type: Annual
+    type: string
+  timestamp: '2024-07-20T00:05:32+02:00'
 - event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8913-7020-bbba-dd0b93f94abb'
   properties:
-    type: BMI
-    bmi: 27.48
-    date_of_measurement: '2024-04-19T04:22:54+02:00'
-  timestamp: '2024-05-25T01:41:23+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_lab: '2024-08-06T16:49:54+02:00'
-    test_type: A1c
-    result: 4.18
-  timestamp: '2024-07-07T03:30:42+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_lab: '2024-09-09T14:23:33+02:00'
-    test_type: Glucose
-    result: 92
-  timestamp: '2024-06-20T20:18:54+02:00'
-- event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-05-22T17:56:56+02:00'
+  - measurement_type: glucose
+    type: string
+  - glucose: 74
+    type: numeric
+  - date_of_measurement: '2024-04-27T03:51:10+02:00'
+    type: datetime
+  timestamp: '2024-07-18T11:05:26+02:00'
 - event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-890f-7720-b4eb-f4c7cfba805f'
   properties:
-    clinic_name: Windler, Corkery and Bartoletti
-    date_of_screening: '2025-07-09T18:29:52+02:00'
-    screening_type: Initial
-  timestamp: '2024-05-09T23:23:13+02:00'
+  - clinic_name: Sanford, Feil and Nicolas
+    type: string
+  - date_of_screening: '2025-09-23T01:11:33+02:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-09-18T19:16:05+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-8911-7dea-9e95-a09c81c231c0'
+  properties:
+  - date_of_claim: '2024-07-10T16:04:49+02:00'
+    type: datetime
+  timestamp: '2024-08-19T04:13:15+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-890b-75e4-b3fe-456a23fb9814'
+  properties:
+  - clinic_name: Lakin, Mraz and Purdy
+    type: string
+  - date_of_screening: '2025-03-20T16:28:26+01:00'
+    type: datetime
+  - screening_type: Annual
+    type: string
+  timestamp: '2024-08-04T12:28:30+02:00'
+- event_type: Lab Received
+  user_id: '019224b0-8918-74b9-95a0-5338a065fb5d'
+  properties:
+  - date_of_lab: '2024-05-23T09:44:06+02:00'
+    type: datetime
+  - test_type: CBC
+    type: string
+  - result: 58
+    type: numeric
+  timestamp: '2024-08-02T08:34:09+02:00'
+- event_type: Incentive Achieved
+  user_id: '019224b0-8906-762f-bebb-5132bae9e038'
+  properties:
+  - incentive_type: other
+    type: string
+  timestamp: '2024-06-11T06:52:07+02:00'
 - event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8905-7458-8d1a-157db48ea385'
   properties:
-    source: employer
-  timestamp: '2023-01-16T14:02:15+01:00'
+  - source: self-serve
+    type: string
+  timestamp: '2024-08-15T18:44:56+02:00'
+- event_type: Lab Received
+  user_id: '019224b0-8916-7df4-8e04-c61ed7ae020e'
+  properties:
+  - date_of_lab: '2024-08-02T22:10:54+02:00'
+    type: datetime
+  - test_type: CBC
+    type: string
+  - result: 110
+    type: numeric
+  timestamp: '2024-09-23T10:40:20+02:00'
+- event_type: Lab Received
+  user_id: '019224b0-8909-7286-b8db-eee3122fa359'
+  properties:
+  - date_of_lab: '2024-05-06T04:59:34+02:00'
+    type: datetime
+  - test_type: Glucose
+    type: string
+  - result: 94
+    type: numeric
+  timestamp: '2024-09-02T03:44:07+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-8910-7077-89a3-d89e09b65292'
+  properties:
+  - date_of_claim: '2024-05-30T03:41:21+02:00'
+    type: datetime
+  timestamp: '2024-06-13T11:44:31+02:00'
+- event_type: Form Received
+  user_id: '019224b0-8909-7f55-af85-0d0395513f5c'
+  properties:
+  - form_type: intake
+    type: string
+  timestamp: '2024-04-21T17:36:21+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-8907-79ab-a95c-a619b34c461a'
+  properties:
+  - date_of_claim: '2024-07-24T11:32:01+02:00'
+    type: datetime
+  timestamp: '2024-07-20T18:22:56+02:00'
+- event_type: Screening Completed
+  user_id: '019224b0-8903-734b-b817-cbe3c2c2cdd4'
+  properties:
+  - clinic_name: Gleason LLC
+    type: string
+  - date_of_completion: '2023-11-03T13:52:57+01:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-05-16T04:03:59+02:00'
 - event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-890b-75e4-b3fe-456a23fb9814'
   properties:
-    clinic_name: Kshlerin-Gutkowski
-    date_of_screening: '2025-03-24T03:20:49+01:00'
-    screening_type: Specialty
-  timestamp: '2024-05-30T04:32:46+02:00'
+  - clinic_name: Legros-O'Hara
+    type: string
+  - date_of_screening: '2024-12-19T13:37:39+01:00'
+    type: datetime
+  - screening_type: Annual
+    type: string
+  timestamp: '2024-07-13T06:17:39+02:00'
+- event_type: Screening Completed
+  user_id: '019224b0-8905-7ffd-a8a9-71f664c7660a'
+  properties:
+  - clinic_name: Stiedemann, Littel and Kuvalis
+    type: string
+  - date_of_completion: '2023-11-30T04:48:57+01:00'
+    type: datetime
+  - screening_type: Annual
+    type: string
+  timestamp: '2024-09-24T17:07:23+02:00'
 - event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-04-07T00:55:25+02:00'
+  user_id: '019224b0-8910-7d29-aad0-1365baa86e62'
+  properties:
+  - incentive_type: money
+    type: string
+  timestamp: '2024-06-19T00:47:27+02:00'
+- event_type: Incentive Achieved
+  user_id: '019224b0-8915-7ec1-82f5-0fdd355f5ac5'
+  properties:
+  - incentive_type: other
+    type: string
+  timestamp: '2024-05-08T00:00:12+02:00'
+- event_type: Lab Received
+  user_id: '019224b0-8911-7dea-9e95-a09c81c231c0'
+  properties:
+  - date_of_lab: '2024-08-27T03:03:43+02:00'
+    type: datetime
+  - test_type: Glucose
+    type: string
+  - result: 76
+    type: numeric
+  timestamp: '2024-03-29T06:49:40+01:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-890f-7f68-8b64-0849f814623f'
+  properties:
+  - clinic_name: Feeney, Herzog and Auer
+    type: string
+  - date_of_screening: '2025-05-15T21:14:14+02:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-08-03T15:37:16+02:00'
+- event_type: Incentive Achieved
+  user_id: '019224b0-8916-7df4-8e04-c61ed7ae020e'
+  properties:
+  - incentive_type: rewards
+    type: string
+  timestamp: '2024-04-21T00:03:04+02:00'
 - event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8904-7f35-bf29-46f1eb1ee00b'
   properties:
-    type: waist
-    waist_in_cm: 62.9
-    date_of_measurement: '2024-06-15T03:43:40+02:00'
-  timestamp: '2024-08-18T08:49:59+02:00'
+  - measurement_type: a1c
+    type: string
+  - a1c: 6.69
+    type: numeric
+  - date_of_measurement: '2024-04-21T23:53:13+02:00'
+    type: datetime
+  timestamp: '2024-09-03T13:24:36+02:00'
 - event_type: Screening Completed
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8911-7595-8611-8b13cf308585'
   properties:
-    clinic_name: Bednar-Murray
-    date_of_completion: '2025-06-17T18:27:11+02:00'
-    screening_type: Initial
-  timestamp: '2024-04-21T12:51:30+02:00'
-- event_type: Screening Completed
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    clinic_name: Breitenberg, Russel and Lehner
-    date_of_completion: '2025-07-08T13:12:26+02:00'
-    screening_type: Annual
-  timestamp: '2024-06-08T19:55:25+02:00'
-- event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: release
-  timestamp: '2024-04-11T04:41:58+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_lab: '2024-03-23T17:53:10+01:00'
-    test_type: A1c
-    result: 6.28
-  timestamp: '2024-08-04T20:38:35+02:00'
-- event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: medical record
-  timestamp: '2024-06-18T20:26:47+02:00'
-- event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: other
-  timestamp: '2024-05-16T15:52:23+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_lab: '2024-07-21T05:49:07+02:00'
-    test_type: A1c
-    result: 5.99
-  timestamp: '2024-08-23T17:37:24+02:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_claim: '2024-08-21T07:19:31+02:00'
-  timestamp: '2024-06-30T21:11:37+02:00'
-- event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: other
-  timestamp: '2024-07-08T21:21:51+02:00'
+  - clinic_name: Collier, Schowalter and Lind
+    type: string
+  - date_of_completion: '2023-10-20T00:32:13+02:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-04-06T04:27:45+02:00'
 - event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8905-7458-8d1a-157db48ea385'
   properties:
-    type: glucose
-    glucose: 87
-    date_of_measurement: '2024-07-07T00:08:16+02:00'
-  timestamp: '2024-06-03T15:02:11+02:00'
+  - measurement_type: blood pressure
+    type: string
+  - systolic: 137
+    type: numeric
+  - diastolic: 92
+    type: numeric
+  - date_of_measurement: '2024-07-26T19:58:00+02:00'
+    type: datetime
+  timestamp: '2024-09-16T15:07:57+02:00'
 - event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8915-7ec1-82f5-0fdd355f5ac5'
   properties:
-    date_of_claim: '2024-05-31T18:31:51+02:00'
-  timestamp: '2024-07-30T13:53:44+02:00'
+  - date_of_claim: '2024-07-09T08:02:47+02:00'
+    type: datetime
+  timestamp: '2024-03-31T20:31:30+02:00'
+- event_type: Lab Received
+  user_id: '019224b0-8913-7457-a6ca-d9a2760633c5'
+  properties:
+  - date_of_lab: '2024-04-25T07:54:26+02:00'
+    type: datetime
+  - test_type: A1c
+    type: string
+  - result: 7.45
+    type: numeric
+  timestamp: '2024-04-19T10:49:43+02:00'
+- event_type: Screening Completed
+  user_id: '019224b0-8916-7304-8f8a-1ae2f5e1d6cc'
+  properties:
+  - clinic_name: Abshire-Bartoletti
+    type: string
+  - date_of_completion: '2024-02-15T10:25:22+01:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-04-24T14:18:17+02:00'
+- event_type: Incentive Achieved
+  user_id: '019224b0-8913-7457-a6ca-d9a2760633c5'
+  properties:
+  - incentive_type: points
+    type: string
+  timestamp: '2024-08-11T17:07:13+02:00'
 - event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8911-7dea-9e95-a09c81c231c0'
   properties:
-    clinic_name: Labadie, Johnson and Daniel
-    date_of_screening: '2024-10-21T13:10:46+02:00'
-    screening_type: Specialty
-  timestamp: '2024-07-05T22:30:17+02:00'
+  - clinic_name: Kessler Inc
+    type: string
+  - date_of_screening: '2025-06-16T06:54:47+02:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-08-12T18:55:56+02:00'
+- event_type: New User Created
+  user_id: '019224b0-8918-74b9-95a0-5338a065fb5d'
+  properties:
+  - source: self-serve
+    type: string
+  timestamp: '2023-12-02T14:02:54+01:00'
+- event_type: Claim Received
+  user_id: '019224b0-8908-7630-91d5-b8e0287ba55a'
+  properties:
+  - date_of_claim: '2024-08-30T02:58:08+02:00'
+    type: datetime
+  timestamp: '2024-06-22T12:52:09+02:00'
+- event_type: Screening Completed
+  user_id: '019224b0-8918-74b9-95a0-5338a065fb5d'
+  properties:
+  - clinic_name: Fritsch, Oberbrunner and Brown
+    type: string
+  - date_of_completion: '2024-07-12T16:34:42+02:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-04-25T18:35:12+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-8904-7956-bf08-7391e6f9a62d'
+  properties:
+  - clinic_name: Lynch-Konopelski
+    type: string
+  - date_of_screening: '2025-01-12T20:21:09+01:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-05-24T09:19:36+02:00'
+- event_type: Incentive Achieved
+  user_id: '019224b0-890e-78d8-911a-2f57f0b36282'
+  properties:
+  - incentive_type: money
+    type: string
+  timestamp: '2024-08-07T15:12:48+02:00'
+- event_type: Screening Completed
+  user_id: '019224b0-8911-7dea-9e95-a09c81c231c0'
+  properties:
+  - clinic_name: Bauch, Bogan and Mante
+    type: string
+  - date_of_completion: '2024-08-09T00:24:23+02:00'
+    type: datetime
+  - screening_type: Annual
+    type: string
+  timestamp: '2024-09-13T07:04:03+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-890d-72ac-b33a-8629ae24eb67'
+  properties:
+  - date_of_claim: '2024-06-08T23:27:39+02:00'
+    type: datetime
+  timestamp: '2024-05-23T09:01:02+02:00'
 - event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8906-762f-bebb-5132bae9e038'
   properties:
-    type: other
-  timestamp: '2024-06-18T16:57:29+02:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
+  - form_type: release
+    type: string
+  timestamp: '2024-05-07T01:41:09+02:00'
+- event_type: Screening Completed
+  user_id: '019224b0-8911-7595-8611-8b13cf308585'
   properties:
-    date_of_claim: '2024-08-24T08:00:51+02:00'
-  timestamp: '2024-07-17T23:20:37+02:00'
+  - clinic_name: Schroeder Inc
+    type: string
+  - date_of_completion: '2023-12-19T02:05:52+01:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-06-19T10:04:04+02:00'
+- event_type: New User Created
+  user_id: '019224b0-890a-7dc7-9d88-e07b558ad364'
+  properties:
+  - source: imported
+    type: string
+  timestamp: '2023-12-11T12:28:26+01:00'
 - event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8913-7737-aad6-c876573ae3d5'
   properties:
-    clinic_name: Zemlak, Murphy and Bechtelar
-    date_of_screening: '2024-10-02T19:00:40+02:00'
-    screening_type: Initial
-  timestamp: '2024-09-07T01:33:38+02:00'
+  - clinic_name: Welch, Keebler and Hamill
+    type: string
+  - date_of_screening: '2024-10-11T06:15:49+02:00'
+    type: datetime
+  - screening_type: Annual
+    type: string
+  timestamp: '2024-08-15T15:57:14+02:00'
+- event_type: Screening Completed
+  user_id: '019224b0-890a-7eca-b9c6-3ea4bbfa730c'
+  properties:
+  - clinic_name: Macejkovic, Goodwin and Shanahan
+    type: string
+  - date_of_completion: '2024-07-28T16:45:28+02:00'
+    type: datetime
+  - screening_type: Annual
+    type: string
+  timestamp: '2024-06-15T17:43:05+02:00'
+- event_type: Screening Completed
+  user_id: '019224b0-8916-7df4-8e04-c61ed7ae020e'
+  properties:
+  - clinic_name: Hoppe Inc
+    type: string
+  - date_of_completion: '2024-04-06T15:52:13+02:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-09-02T00:03:15+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-8910-7d29-aad0-1365baa86e62'
+  properties:
+  - clinic_name: Bogan-Dicki
+    type: string
+  - date_of_screening: '2025-08-12T14:01:38+02:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-06-15T13:12:50+02:00'
+- event_type: Lab Received
+  user_id: '019224b0-8906-7dfa-8d86-b04d097d0bb5'
+  properties:
+  - date_of_lab: '2024-09-03T22:56:37+02:00'
+    type: datetime
+  - test_type: CBC
+    type: string
+  - result: 174
+    type: numeric
+  timestamp: '2024-09-07T19:06:27+02:00'
+- event_type: New User Created
+  user_id: '019224b0-8909-7ae5-80f2-37084b18aeb3'
+  properties:
+  - source: imported
+    type: string
+  timestamp: '2022-03-29T09:21:53+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-890c-7783-8ec3-e66a653a8086'
+  properties:
+  - date_of_claim: '2024-09-24T03:19:04+02:00'
+    type: datetime
+  timestamp: '2024-09-20T23:01:05+02:00'
+- event_type: New Measurement
+  user_id: '019224b0-8907-7ff7-9b59-eaf076c61c51'
+  properties:
+  - measurement_type: BMI
+    type: string
+  - bmi: 26.13
+    type: numeric
+  - date_of_measurement: '2024-05-26T07:17:39+02:00'
+    type: datetime
+  timestamp: '2024-07-13T22:58:24+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-890d-72ac-b33a-8629ae24eb67'
+  properties:
+  - clinic_name: Lind-Jenkins
+    type: string
+  - date_of_screening: '2024-10-31T06:37:10+01:00'
+    type: datetime
+  - screening_type: Annual
+    type: string
+  timestamp: '2024-05-03T08:49:56+02:00'
+- event_type: New User Created
+  user_id: '019224b0-8904-7956-bf08-7391e6f9a62d'
+  properties:
+  - source: imported
+    type: string
+  timestamp: '2023-07-31T21:11:40+02:00'
+- event_type: Screening Completed
+  user_id: '019224b0-8909-7f55-af85-0d0395513f5c'
+  properties:
+  - clinic_name: Grant and Sons
+    type: string
+  - date_of_completion: '2024-05-18T14:17:40+02:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-06-29T13:24:01+02:00'
+- event_type: New User Created
+  user_id: '019224b0-8916-7484-9d0d-86563bdf0b46'
+  properties:
+  - source: self-serve
+    type: string
+  timestamp: '2023-02-14T08:26:24+01:00'
+- event_type: Claim Received
+  user_id: '019224b0-86d1-7084-a1c4-20ad5877b63b'
+  properties:
+  - date_of_claim: '2024-08-14T04:12:41+02:00'
+    type: datetime
+  timestamp: '2024-04-20T18:41:35+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-890a-7dc7-9d88-e07b558ad364'
+  properties:
+  - clinic_name: MacGyver Group
+    type: string
+  - date_of_screening: '2025-04-28T19:48:11+02:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-05-16T14:04:11+02:00'
 - event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8903-734b-b817-cbe3c2c2cdd4'
   properties:
-    type: other
-  timestamp: '2024-08-05T15:46:38+02:00'
-- event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-06-13T18:07:06+02:00'
-- event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-09-02T14:25:02+02:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_claim: '2024-06-04T17:28:14+02:00'
-  timestamp: '2024-05-23T07:47:47+02:00'
-- event_type: Screening Completed
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    clinic_name: Jacobs-Schuster
-    date_of_completion: '2025-03-31T11:28:42+02:00'
-    screening_type: Initial
-  timestamp: '2024-04-06T03:20:14+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_lab: '2024-05-11T04:22:18+02:00'
-    test_type: Glucose
-    result: 99
-  timestamp: '2024-06-13T20:06:43+02:00'
-- event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: weight
-    weight_in_kg: 105
-    date_of_measurement: '2024-07-04T06:07:50+02:00'
-  timestamp: '2024-04-18T04:26:38+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_lab: '2024-07-15T00:19:21+02:00'
-    test_type: Glucose
-    result: 97
-  timestamp: '2024-04-08T05:25:12+02:00'
-- event_type: Screening Completed
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    clinic_name: Waelchi, Lebsack and Gulgowski
-    date_of_completion: '2025-08-28T11:24:47+02:00'
-    screening_type: Annual
-  timestamp: '2024-08-31T18:32:30+02:00'
-- event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    clinic_name: Jakubowski-Aufderhar
-    date_of_screening: '2025-08-06T23:23:05+02:00'
-    screening_type: Specialty
-  timestamp: '2024-05-30T23:38:10+02:00'
-- event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    source: employer
-  timestamp: '2022-08-15T01:54:01+02:00'
+  - form_type: release
+    type: string
+  timestamp: '2024-07-20T04:54:22+02:00'
 - event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8909-7286-b8db-eee3122fa359'
   properties:
-    type: intake
-  timestamp: '2024-05-27T13:17:18+02:00'
-- event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-04-18T04:05:26+02:00'
-- event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    source: imported
-  timestamp: '2021-11-25T02:55:49+01:00'
-- event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    source: self-serve
-  timestamp: '2022-10-30T12:42:28+01:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_claim: '2024-05-04T20:08:42+02:00'
-  timestamp: '2024-05-23T18:55:17+02:00'
-- event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: waist
-    waist_in_cm: 60.06
-    date_of_measurement: '2024-07-24T10:56:08+02:00'
-  timestamp: '2024-06-29T08:43:47+02:00'
-- event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-05-15T20:18:48+02:00'
+  - form_type: medical record
+    type: string
+  timestamp: '2024-08-27T16:33:29+02:00'
 - event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-890b-7653-8c39-40c5bf07ca27'
   properties:
-    type: other
-  timestamp: '2024-06-09T12:29:48+02:00'
+  - form_type: release
+    type: string
+  timestamp: '2024-04-05T20:27:26+02:00'
 - event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8916-7df4-8e04-c61ed7ae020e'
   properties:
-    date_of_lab: '2024-07-19T02:56:32+02:00'
-    test_type: CBC
-    result: 118
-  timestamp: '2024-06-29T06:52:17+02:00'
+  - date_of_lab: '2024-07-27T04:09:38+02:00'
+    type: datetime
+  - test_type: A1c
+    type: string
+  - result: 7.97
+    type: numeric
+  timestamp: '2024-07-14T07:02:01+02:00'
+- event_type: Lab Received
+  user_id: '019224b0-8904-7f35-bf29-46f1eb1ee00b'
+  properties:
+  - date_of_lab: '2024-07-10T07:50:02+02:00'
+    type: datetime
+  - test_type: A1c
+    type: string
+  - result: 5.53
+    type: numeric
+  timestamp: '2024-09-22T10:34:54+02:00'
+- event_type: New User Created
+  user_id: '019224b0-890f-7f68-8b64-0849f814623f'
+  properties:
+  - source: employer
+    type: string
+  timestamp: '2024-02-27T01:33:29+01:00'
+- event_type: Incentive Achieved
+  user_id: '019224b0-8917-76c2-8fc3-a769152904a7'
+  properties:
+  - incentive_type: other
+    type: string
+  timestamp: '2024-06-04T20:23:04+02:00'
 - event_type: Screening Completed
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8911-7dea-9e95-a09c81c231c0'
   properties:
-    clinic_name: O'Reilly-Hansen
-    date_of_completion: '2024-12-28T00:43:06+01:00'
-    screening_type: Specialty
-  timestamp: '2024-09-03T09:56:43+02:00'
+  - clinic_name: Donnelly Group
+    type: string
+  - date_of_completion: '2024-01-09T02:54:28+01:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-04-08T05:37:19+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-8910-7e9d-ba22-2c246310703c'
+  properties:
+  - date_of_claim: '2024-03-31T09:33:37+02:00'
+    type: datetime
+  timestamp: '2024-08-18T00:10:32+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-8909-7286-b8db-eee3122fa359'
+  properties:
+  - date_of_claim: '2024-04-23T08:36:25+02:00'
+    type: datetime
+  timestamp: '2024-06-26T22:52:48+02:00'
+- event_type: Incentive Achieved
+  user_id: '019224b0-890f-7f68-8b64-0849f814623f'
+  properties:
+  - incentive_type: rewards
+    type: string
+  timestamp: '2024-06-29T07:56:25+02:00'
+- event_type: Screening Completed
+  user_id: '019224b0-8910-7d29-aad0-1365baa86e62'
+  properties:
+  - clinic_name: Carroll-Predovic
+    type: string
+  - date_of_completion: '2024-05-18T02:04:45+02:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-09-23T08:10:11+02:00'
+- event_type: Screening Completed
+  user_id: '019224b0-8913-7020-bbba-dd0b93f94abb'
+  properties:
+  - clinic_name: Medhurst, Adams and Vandervort
+    type: string
+  - date_of_completion: '2024-09-13T20:29:57+02:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-06-20T10:04:17+02:00'
+- event_type: Lab Received
+  user_id: '019224b0-8906-7483-b0bb-78fcaa6c5d56'
+  properties:
+  - date_of_lab: '2024-08-28T01:47:15+02:00'
+    type: datetime
+  - test_type: CBC
+    type: string
+  - result: 183
+    type: numeric
+  timestamp: '2024-05-01T03:07:39+02:00'
+- event_type: New User Created
+  user_id: '019224b0-890e-78d8-911a-2f57f0b36282'
+  properties:
+  - source: employer
+    type: string
+  timestamp: '2023-02-23T10:04:00+01:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-8908-7d95-a9e1-e6dbcf06c02d'
+  properties:
+  - clinic_name: Torp, Lesch and Jacobi
+    type: string
+  - date_of_screening: '2024-10-11T02:15:15+02:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-08-07T05:15:08+02:00'
 - event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8905-7ffd-a8a9-71f664c7660a'
   properties:
-    type: release
-  timestamp: '2024-08-11T16:55:26+02:00'
-- event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-07-06T06:54:00+02:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
+  - form_type: intake
+    type: string
+  timestamp: '2024-04-06T17:34:28+02:00'
+- event_type: New Measurement
+  user_id: '019224b0-8917-76c2-8fc3-a769152904a7'
   properties:
-    date_of_claim: '2024-05-19T07:32:46+02:00'
-  timestamp: '2024-08-09T05:14:40+02:00'
+  - measurement_type: glucose
+    type: string
+  - glucose: 74
+    type: numeric
+  - date_of_measurement: '2024-08-07T11:22:07+02:00'
+    type: datetime
+  timestamp: '2024-04-13T15:00:14+02:00'
 - event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8909-7f55-af85-0d0395513f5c'
   properties:
-    source: imported
-  timestamp: '2022-09-06T16:35:58+02:00'
-- event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
+  - source: employer
+    type: string
+  timestamp: '2024-08-15T01:21:18+02:00'
+- event_type: New Measurement
+  user_id: '019224b0-8912-75e7-8cb3-b428745440f0'
   properties:
-    source: imported
-  timestamp: '2023-09-20T11:36:45+02:00'
-- event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-04-18T03:53:37+02:00'
-- event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-05-04T22:27:07+02:00'
-- event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    source: employer
-  timestamp: '2022-07-14T08:10:19+02:00'
+  - measurement_type: a1c
+    type: string
+  - a1c: 7.02
+    type: numeric
+  - date_of_measurement: '2024-06-13T01:03:38+02:00'
+    type: datetime
+  timestamp: '2024-07-04T22:42:51+02:00'
 - event_type: Form Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8912-75e7-8cb3-b428745440f0'
   properties:
-    type: release
-  timestamp: '2024-03-26T21:21:43+01:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
+  - form_type: medical record
+    type: string
+  timestamp: '2024-05-19T02:58:59+02:00'
+- event_type: New Measurement
+  user_id: '019224b0-890a-7eca-b9c6-3ea4bbfa730c'
   properties:
-    date_of_claim: '2024-05-24T18:31:50+02:00'
-  timestamp: '2024-07-22T05:59:49+02:00'
-- event_type: Screening Completed
-  user_id: "<%= user_ids.sample %>"
+  - measurement_type: glucose
+    type: string
+  - glucose: 72
+    type: numeric
+  - date_of_measurement: '2024-04-10T15:45:28+02:00'
+    type: datetime
+  timestamp: '2024-04-04T22:37:11+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-8917-76c2-8fc3-a769152904a7'
   properties:
-    clinic_name: Schultz-Stanton
-    date_of_completion: '2025-07-05T13:48:04+02:00'
-    screening_type: Specialty
-  timestamp: '2024-08-09T10:27:20+02:00'
-- event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
+  - clinic_name: Lakin, Rowe and Weimann
+    type: string
+  - date_of_screening: '2025-02-16T17:46:58+01:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-08-17T21:50:59+02:00'
+- event_type: Lab Received
+  user_id: '019224b0-8909-7286-b8db-eee3122fa359'
   properties:
-    date_of_claim: '2024-05-12T19:18:20+02:00'
-  timestamp: '2024-05-31T00:50:07+02:00'
+  - date_of_lab: '2024-06-25T01:02:28+02:00'
+    type: datetime
+  - test_type: Glucose
+    type: string
+  - result: 77
+    type: numeric
+  timestamp: '2024-06-11T15:26:04+02:00'
 - event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8905-7458-8d1a-157db48ea385'
   properties:
-    source: imported
-  timestamp: '2023-10-22T22:55:46+02:00'
-- event_type: New User Created
-  user_id: "<%= user_ids.sample %>"
+  - source: employer
+    type: string
+  timestamp: '2024-07-01T20:48:01+02:00'
+- event_type: Form Received
+  user_id: '019224b0-8911-7dea-9e95-a09c81c231c0'
   properties:
-    source: imported
-  timestamp: '2023-07-19T13:00:48+02:00'
+  - form_type: medical record
+    type: string
+  timestamp: '2024-08-31T16:13:35+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-8912-75e7-8cb3-b428745440f0'
+  properties:
+  - clinic_name: Bergstrom, Lindgren and Parisian
+    type: string
+  - date_of_screening: '2024-11-02T02:22:33+01:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-06-18T10:01:49+02:00'
 - event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-890c-7783-8ec3-e66a653a8086'
   properties:
-    date_of_lab: '2024-07-31T05:02:39+02:00'
-    test_type: Glucose
-    result: 92
-  timestamp: '2024-04-24T19:15:32+02:00'
+  - date_of_lab: '2024-08-28T08:15:28+02:00'
+    type: datetime
+  - test_type: Glucose
+    type: string
+  - result: 70
+    type: numeric
+  timestamp: '2024-06-04T07:17:50+02:00'
 - event_type: Screening Completed
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8910-7d29-aad0-1365baa86e62'
   properties:
-    clinic_name: Glover-Morar
-    date_of_completion: '2025-07-17T05:14:58+02:00'
-    screening_type: Initial
-  timestamp: '2024-08-22T10:50:30+02:00'
+  - clinic_name: McDermott-Jakubowski
+    type: string
+  - date_of_completion: '2024-07-24T05:16:10+02:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-08-05T14:30:44+02:00'
 - event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-890e-78d8-911a-2f57f0b36282'
   properties:
-    type: weight
-    weight_in_kg: 117
-    date_of_measurement: '2024-08-07T08:37:44+02:00'
-  timestamp: '2024-04-18T16:55:10+02:00'
+  - measurement_type: BMI
+    type: string
+  - bmi: 30.97
+    type: numeric
+  - date_of_measurement: '2024-05-09T12:48:30+02:00'
+    type: datetime
+  timestamp: '2024-08-16T12:44:24+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-890e-79ba-9b51-27c6db6dde84'
+  properties:
+  - clinic_name: Frami-Mills
+    type: string
+  - date_of_screening: '2025-08-28T17:40:03+02:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-08-06T23:16:41+02:00'
+- event_type: Screening Completed
+  user_id: '019224b0-8907-79ab-a95c-a619b34c461a'
+  properties:
+  - clinic_name: Lockman Inc
+    type: string
+  - date_of_completion: '2023-12-09T03:38:57+01:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-07-28T12:25:39+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-890a-7eca-b9c6-3ea4bbfa730c'
+  properties:
+  - clinic_name: Fadel-Reichel
+    type: string
+  - date_of_screening: '2025-03-13T23:52:08+01:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-07-09T20:00:01+02:00'
 - event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-890a-7eca-b9c6-3ea4bbfa730c'
   properties:
-    date_of_lab: '2024-08-12T13:16:55+02:00'
-    test_type: Glucose
-    result: 70
-  timestamp: '2024-08-04T17:51:12+02:00'
-- event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: glucose
-    glucose: 78
-    date_of_measurement: '2024-05-24T03:53:29+02:00'
-  timestamp: '2024-07-07T08:51:38+02:00'
+  - date_of_lab: '2024-07-24T05:48:46+02:00'
+    type: datetime
+  - test_type: A1c
+    type: string
+  - result: 6.33
+    type: numeric
+  timestamp: '2024-08-24T19:08:39+02:00'
 - event_type: Claim Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-890d-7154-b37d-643690fe5875'
   properties:
-    date_of_claim: '2024-07-23T10:48:39+02:00'
-  timestamp: '2024-09-03T15:31:13+02:00'
-- event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
+  - date_of_claim: '2024-04-14T07:44:41+02:00'
+    type: datetime
+  timestamp: '2024-05-14T03:01:11+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-8917-7dac-9592-dce26cd3db89'
   properties:
-    type: BMI
-    bmi: 31.53
-    date_of_measurement: '2024-04-24T11:04:37+02:00'
-  timestamp: '2024-07-04T19:17:57+02:00'
-- event_type: Screening Completed
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    clinic_name: Tillman-Durgan
-    date_of_completion: '2024-10-06T17:16:06+02:00'
-    screening_type: Specialty
-  timestamp: '2024-08-23T21:14:25+02:00'
-- event_type: Screening Completed
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    clinic_name: Ullrich and Sons
-    date_of_completion: '2025-06-05T19:25:59+02:00'
-    screening_type: Specialty
-  timestamp: '2024-07-05T15:27:37+02:00'
-- event_type: New Measurement
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    type: blood pressure
-    systolic: 122
-    diastolic: 90
-    date_of_measurement: '2024-03-29T00:09:26+01:00'
-  timestamp: '2024-07-03T12:45:44+02:00'
-- event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    clinic_name: O'Connell LLC
-    date_of_screening: '2025-07-23T03:24:27+02:00'
-    screening_type: Annual
-  timestamp: '2024-08-06T02:09:32+02:00'
-- event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    clinic_name: Howell-Schaden
-    date_of_screening: '2024-10-21T23:07:20+02:00'
-    screening_type: Initial
-  timestamp: '2024-06-15T15:33:18+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    date_of_lab: '2024-09-14T14:33:28+02:00'
-    test_type: A1c
-    result: 5.31
-  timestamp: '2024-05-12T02:09:07+02:00'
-- event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
-  properties:
-    clinic_name: Ondricka, Krajcik and Mills
-    date_of_screening: '2024-10-09T03:59:48+02:00'
-    screening_type: Specialty
-  timestamp: '2024-08-29T20:30:04+02:00'
+  - date_of_claim: '2024-04-19T16:34:07+02:00'
+    type: datetime
+  timestamp: '2024-04-08T08:01:44+02:00'
 - event_type: Incentive Achieved
-  user_id: "<%= user_ids.sample %>"
-  properties: {}
-  timestamp: '2024-04-03T00:11:20+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8911-7595-8611-8b13cf308585'
   properties:
-    date_of_lab: '2024-07-28T14:32:45+02:00'
-    test_type: Glucose
-    result: 89
-  timestamp: '2024-09-04T18:13:56+02:00'
+  - incentive_type: points
+    type: string
+  timestamp: '2024-09-11T10:24:13+02:00'
+- event_type: New Measurement
+  user_id: '019224b0-8911-7595-8611-8b13cf308585'
+  properties:
+  - measurement_type: BMI
+    type: string
+  - bmi: 21.84
+    type: numeric
+  - date_of_measurement: '2024-08-28T07:33:18+02:00'
+    type: datetime
+  timestamp: '2024-06-24T00:19:13+02:00'
 - event_type: Screening Scheduled
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-890d-7154-b37d-643690fe5875'
   properties:
-    clinic_name: D'Amore Group
-    date_of_screening: '2025-03-11T05:43:50+01:00'
-    screening_type: Annual
-  timestamp: '2024-09-01T13:57:55+02:00'
-- event_type: Lab Received
-  user_id: "<%= user_ids.sample %>"
+  - clinic_name: Kling-Nicolas
+    type: string
+  - date_of_screening: '2025-01-09T11:41:40+01:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-07-03T23:50:24+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-8916-7df4-8e04-c61ed7ae020e'
   properties:
-    date_of_lab: '2024-08-22T21:48:51+02:00'
-    test_type: Glucose
-    result: 100
-  timestamp: '2024-05-06T21:16:25+02:00'
+  - date_of_claim: '2024-05-27T00:45:47+02:00'
+    type: datetime
+  timestamp: '2024-09-24T09:19:26+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-8904-7956-bf08-7391e6f9a62d'
+  properties:
+  - date_of_claim: '2024-06-27T20:58:57+02:00'
+    type: datetime
+  timestamp: '2024-05-26T10:32:40+02:00'
+- event_type: Form Received
+  user_id: '019224b0-8911-7595-8611-8b13cf308585'
+  properties:
+  - form_type: medical record
+    type: string
+  timestamp: '2024-08-30T05:38:41+02:00'
+- event_type: Form Received
+  user_id: '019224b0-8909-7f55-af85-0d0395513f5c'
+  properties:
+  - form_type: other
+    type: string
+  timestamp: '2024-08-12T12:00:39+02:00'
+- event_type: New User Created
+  user_id: '019224b0-890a-7dc7-9d88-e07b558ad364'
+  properties:
+  - source: imported
+    type: string
+  timestamp: '2022-07-29T20:19:03+02:00'
+- event_type: Incentive Achieved
+  user_id: '019224b0-890d-72ac-b33a-8629ae24eb67'
+  properties:
+  - incentive_type: money
+    type: string
+  timestamp: '2024-08-14T17:03:54+02:00'
+- event_type: Screening Scheduled
+  user_id: '019224b0-890b-7653-8c39-40c5bf07ca27'
+  properties:
+  - clinic_name: Hammes-Okuneva
+    type: string
+  - date_of_screening: '2024-11-21T15:29:35+01:00'
+    type: datetime
+  - screening_type: Initial
+    type: string
+  timestamp: '2024-08-06T00:51:34+02:00'
+- event_type: New User Created
+  user_id: '019224b0-890b-74df-8282-4d8530563aab'
+  properties:
+  - source: imported
+    type: string
+  timestamp: '2024-04-11T04:00:54+02:00'
 - event_type: Screening Completed
-  user_id: "<%= user_ids.sample %>"
+  user_id: '019224b0-8907-7ff7-9b59-eaf076c61c51'
   properties:
-    clinic_name: Sipes-Hintz
-    date_of_completion: '2025-06-01T08:13:21+02:00'
-    screening_type: Annual
-  timestamp: '2024-07-01T22:32:36+02:00'
+  - clinic_name: Morar-Goldner
+    type: string
+  - date_of_completion: '2023-10-07T20:30:05+02:00'
+    type: datetime
+  - screening_type: Specialty
+    type: string
+  timestamp: '2024-04-23T17:30:07+02:00'
+- event_type: Claim Received
+  user_id: '019224b0-890e-79ba-9b51-27c6db6dde84'
+  properties:
+  - date_of_claim: '2024-08-26T03:04:20+02:00'
+    type: datetime
+  timestamp: '2024-08-17T02:03:03+02:00'
+- event_type: Incentive Achieved
+  user_id: '019224b0-8907-7ff7-9b59-eaf076c61c51'
+  properties:
+  - incentive_type: money
+    type: string
+  timestamp: '2024-06-28T09:39:58+02:00'
+- event_type: New Measurement
+  user_id: '019224b0-8913-7737-aad6-c876573ae3d5'
+  properties:
+  - measurement_type: waist
+    type: string
+  - waist_in_cm: 70.05
+    type: numeric
+  - date_of_measurement: '2024-08-18T10:24:40+02:00'
+    type: datetime
+  timestamp: '2024-07-15T17:54:39+02:00'

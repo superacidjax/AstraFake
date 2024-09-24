@@ -1,1202 +1,2002 @@
 ---
 people:
-- user_id: '0192093a-04ef-7e5b-a6ec-f2f7fd36779d'
+- user_id: '019224b0-86d1-7084-a1c4-20ad5877b63b'
   traits:
-    firstName: Zada
-    lastName: Rau
-    gender: male
-    email: bea_walter@example.com
-    birthday: '1955-07-31'
-    phone: "+864393368723"
-    address:
-      city: Bashirianside
-      state: TX
-      street: 57704 Jonie Cape
-      postalCode: 54975-4257
+  - firstName: Norbert
+    type: string
+  - lastName: Schneider
+    type: string
+  - gender: female
+    type: string
+  - email: daryl.mcclure@example.com
+    type: string
+  - birthday: '1963-11-01'
+    type: datetime
+  - phone: "+396501307457"
+    type: string
+  - address:
+      city: West Flossie
+      state: NC
+      street: 4879 Elisa Ferry
+      postalCode: '75971'
       country: US
-    createdAt: '2015-08-17T01:36:45+02:00'
-    hireDate: '2021-08-20T05:13:43+02:00'
-    currentBMI: 30.96
-    currentBpSystolic: 123
-    currentBpDiastolic: 79
-    currentWeightInKg: 102
-    currentWaistInCm: 107.48
-    currentGlucose: 97
-    currentA1c: 5.41
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06eb-7385-80d0-99690c1c5cf0'
+    type: string
+  - createdAt: '2022-05-20T15:42:18+02:00'
+    type: datetime
+  - hireDate: '2020-10-25T10:34:09+01:00'
+    type: datetime
+  - currentBMI: 31.89
+    type: numeric
+  - currentBpSystolic: 164
+    type: numeric
+  - currentBpDiastolic: 87
+    type: numeric
+  - currentWeightInKg: 100
+    type: numeric
+  - currentWaistInCm: 75.81
+    type: numeric
+  - currentGlucose: 94
+    type: numeric
+  - currentA1c: 6.65
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8903-734b-b817-cbe3c2c2cdd4'
   traits:
-    firstName: Dong
-    lastName: Durgan
-    gender: female
-    email: ken.miller@example.com
-    birthday: '1996-02-06'
-    phone: "+311406345389"
-    address:
-      city: Sondratown
-      state: GA
-      street: 907 Franecki Plain
-      postalCode: '18711'
+  - firstName: Thresa
+    type: string
+  - lastName: Roberts
+    type: string
+  - gender: male
+    type: string
+  - email: kristle@example.com
+    type: string
+  - birthday: '2000-06-02'
+    type: datetime
+  - phone: "+643799633448"
+    type: string
+  - address:
+      city: West Catalinaport
+      state: IN
+      street: 49483 Huels Rapids
+      postalCode: 24864-8620
       country: US
-    createdAt: '2016-10-11T06:47:34+02:00'
-    hireDate: '2020-10-30T00:51:40+01:00'
-    currentBMI: 26.09
-    currentBpSystolic: 137
-    currentBpDiastolic: 79
-    currentWeightInKg: 37
-    currentWaistInCm: 73.36
-    currentGlucose: 72
-    currentA1c: 7.62
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06eb-74ff-ac23-92644d2ae2a3'
+    type: string
+  - createdAt: '2015-12-20T19:33:54+01:00'
+    type: datetime
+  - hireDate: '2021-11-29T18:36:53+01:00'
+    type: datetime
+  - currentBMI: 22.88
+    type: numeric
+  - currentBpSystolic: 170
+    type: numeric
+  - currentBpDiastolic: 96
+    type: numeric
+  - currentWeightInKg: 101
+    type: numeric
+  - currentWaistInCm: 65.58
+    type: numeric
+  - currentGlucose: 84
+    type: numeric
+  - currentA1c: 5.3
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8904-7956-bf08-7391e6f9a62d'
   traits:
-    firstName: Sue
-    lastName: Veum
-    gender: male
-    email: blanca@example.com
-    birthday: '1934-01-17'
-    phone: "+335789617122"
-    address:
-      city: Streichborough
-      state: NH
-      street: 882 Gertrud Stream
-      postalCode: 76680-0490
-      country: US
-    createdAt: '2021-08-09T22:55:43+02:00'
-    hireDate: '2019-06-25T10:37:37+02:00'
-    currentBMI: 34.88
-    currentBpSystolic: 117
-    currentBpDiastolic: 98
-    currentWeightInKg: 101
-    currentWaistInCm: 73.02
-    currentGlucose: 99
-    currentA1c: 5.04
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06ec-7ea2-8703-238d762e26bc'
-  traits:
-    firstName: Ron
-    lastName: Runolfsdottir
-    gender: male
-    email: reuben@example.com
-    birthday: '2005-03-31'
-    phone: "+556849381569"
-    address:
-      city: Lake Lancemouth
-      state: KS
-      street: 3269 Denesik Station
-      postalCode: '81831'
-      country: US
-    createdAt: '2018-10-01T09:34:32+02:00'
-    hireDate: '2020-06-26T04:29:57+02:00'
-    currentBMI: 24.27
-    currentBpSystolic: 147
-    currentBpDiastolic: 78
-    currentWeightInKg: 102
-    currentWaistInCm: 108.36
-    currentGlucose: 96
-    currentA1c: 7.8
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06ec-7118-8f90-50c54b3bc2f5'
-  traits:
-    firstName: Julian
-    lastName: Maggio
-    gender: female
-    email: deandre.kemmer@example.com
-    birthday: '1973-07-06'
-    phone: "+821824262277"
-    address:
-      city: Carleyburgh
-      state: NE
-      street: 2305 Jake Haven
-      postalCode: '82755'
-      country: US
-    createdAt: '2021-04-03T02:56:21+02:00'
-    hireDate: '2021-01-07T11:35:41+01:00'
-    currentBMI: 34.62
-    currentBpSystolic: 166
-    currentBpDiastolic: 84
-    currentWeightInKg: 58
-    currentWaistInCm: 57.36
-    currentGlucose: 91
-    currentA1c: 7.65
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06ec-7c48-b892-50f4077e8cf5'
-  traits:
-    firstName: Leandra
-    lastName: Bosco
-    gender: female
-    email: jeremy_walker@example.com
-    birthday: '1953-10-20'
-    phone: "+908708094245"
-    address:
-      city: Lake Devontown
-      state: NE
-      street: 97589 Earlene Extensions
-      postalCode: 18578-1974
-      country: US
-    createdAt: '2022-07-10T02:35:08+02:00'
-    hireDate: '2022-09-26T15:49:33+02:00'
-    currentBMI: 37.4
-    currentBpSystolic: 159
-    currentBpDiastolic: 75
-    currentWeightInKg: 59
-    currentWaistInCm: 94.32
-    currentGlucose: 74
-    currentA1c: 7.71
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06ed-7261-9bd3-89fb844f7c69'
-  traits:
-    firstName: Kisha
-    lastName: Quigley
-    gender: female
-    email: dorothy.nicolas@example.com
-    birthday: '2009-02-12'
-    phone: "+556384743255"
-    address:
-      city: Koelpinport
-      state: AR
-      street: 25487 Tennie Orchard
-      postalCode: '86764'
-      country: US
-    createdAt: '2020-09-30T00:11:35+02:00'
-    hireDate: '2023-05-30T19:41:08+02:00'
-    currentBMI: 40.78
-    currentBpSystolic: 133
-    currentBpDiastolic: 83
-    currentWeightInKg: 46
-    currentWaistInCm: 96.62
-    currentGlucose: 95
-    currentA1c: 4.7
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06ed-773e-ad6a-053c91a21425'
-  traits:
-    firstName: Shawnee
-    lastName: Hoppe
-    gender: male
-    email: waylon@example.com
-    birthday: '1950-05-03'
-    phone: "+419229019056"
-    address:
-      city: Nickyshire
-      state: UT
-      street: 482 Zachary Bridge
-      postalCode: '52596'
-      country: US
-    createdAt: '2014-11-12T23:49:07+01:00'
-    hireDate: '2023-07-20T10:58:47+02:00'
-    currentBMI: 31.87
-    currentBpSystolic: 131
-    currentBpDiastolic: 82
-    currentWeightInKg: 81
-    currentWaistInCm: 70.6
-    currentGlucose: 74
-    currentA1c: 7.09
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06ee-7d28-b877-277537451549'
-  traits:
-    firstName: Jarod
-    lastName: Grady
-    gender: female
-    email: markus@example.com
-    birthday: '1950-09-13'
-    phone: "+826686733400"
-    address:
-      city: South Ned
-      state: OR
-      street: 20716 Isreal Gateway
-      postalCode: '89449'
-      country: US
-    createdAt: '2022-10-31T07:01:10+01:00'
-    hireDate: '2021-03-27T12:58:32+01:00'
-    currentBMI: 39.22
-    currentBpSystolic: 176
-    currentBpDiastolic: 97
-    currentWeightInKg: 120
-    currentWaistInCm: 69.44
-    currentGlucose: 84
-    currentA1c: 7.32
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06ee-7478-87f3-68d78664a03d'
-  traits:
-    firstName: Deeann
-    lastName: Kohler
-    gender: female
-    email: randy@example.com
-    birthday: '2006-06-14'
-    phone: "+206003104413"
-    address:
-      city: Windlermouth
-      state: GA
-      street: 77487 Denny Fields
-      postalCode: '60248'
-      country: US
-    createdAt: '2015-06-11T09:44:37+02:00'
-    hireDate: '2019-05-11T01:42:30+02:00'
-    currentBMI: 31.74
-    currentBpSystolic: 130
-    currentBpDiastolic: 81
-    currentWeightInKg: 79
-    currentWaistInCm: 58.13
-    currentGlucose: 85
-    currentA1c: 7.53
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06ef-7710-b4f4-32e051d020d6'
-  traits:
-    firstName: Cedrick
-    lastName: Will
-    gender: female
-    email: vernon@example.com
-    birthday: '1970-08-08'
-    phone: "+668168168640"
-    address:
-      city: North Monte
-      state: WI
-      street: 2114 Legros Terrace
-      postalCode: 93539-9169
-      country: US
-    createdAt: '2024-06-17T23:54:55+02:00'
-    hireDate: '2021-12-04T10:43:39+01:00'
-    currentBMI: 28.39
-    currentBpSystolic: 144
-    currentBpDiastolic: 86
-    currentWeightInKg: 73
-    currentWaistInCm: 73.0
-    currentGlucose: 97
-    currentA1c: 4.14
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06ef-7ebc-90c1-5391d22a681b'
-  traits:
-    firstName: Annamarie
-    lastName: Grady
-    gender: male
-    email: hallie_wilderman@example.com
-    birthday: '1948-08-30'
-    phone: "+546823508217"
-    address:
-      city: East Odessa
-      state: PA
-      street: 8156 Gemma Dam
-      postalCode: '17743'
-      country: US
-    createdAt: '2021-01-21T05:12:39+01:00'
-    hireDate: '2020-05-20T13:39:05+02:00'
-    currentBMI: 26.83
-    currentBpSystolic: 137
-    currentBpDiastolic: 72
-    currentWeightInKg: 53
-    currentWaistInCm: 86.8
-    currentGlucose: 70
-    currentA1c: 7.29
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f0-7c62-95ab-d72eed93ea05'
-  traits:
-    firstName: Hermine
-    lastName: Cormier
-    gender: male
-    email: randolph.lind@example.com
-    birthday: '1987-05-17'
-    phone: "+823113987420"
-    address:
-      city: Harriston
-      state: ID
-      street: 45753 Lewis Drives
-      postalCode: '67456'
-      country: US
-    createdAt: '2018-11-18T22:41:23+01:00'
-    hireDate: '2022-09-01T01:13:01+02:00'
-    currentBMI: 39.42
-    currentBpSystolic: 153
-    currentBpDiastolic: 87
-    currentWeightInKg: 63
-    currentWaistInCm: 60.1
-    currentGlucose: 74
-    currentA1c: 5.66
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f0-7692-ba3f-7d45aeaca6e7'
-  traits:
-    firstName: Natalie
-    lastName: Halvorson
-    gender: female
-    email: jeremy.jacobi@example.com
-    birthday: '1960-11-02'
-    phone: "+346463252948"
-    address:
-      city: New Lannyview
-      state: KY
-      street: 397 Crona Parks
-      postalCode: 49051-0255
-      country: US
-    createdAt: '2014-05-25T18:21:07+02:00'
-    hireDate: '2024-02-12T04:17:35+01:00'
-    currentBMI: 30.53
-    currentBpSystolic: 110
-    currentBpDiastolic: 101
-    currentWeightInKg: 118
-    currentWaistInCm: 83.79
-    currentGlucose: 89
-    currentA1c: 5.55
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f1-7be2-a162-f2abe5e86fc5'
-  traits:
-    firstName: Randall
-    lastName: Kirlin
-    gender: male
-    email: joshua.ledner@example.com
-    birthday: '1980-12-02'
-    phone: "+621719936047"
-    address:
-      city: West Leonard
-      state: AK
-      street: 4943 Hester Groves
-      postalCode: 11355-3875
-      country: US
-    createdAt: '2017-06-20T23:35:06+02:00'
-    hireDate: '2018-09-27T10:35:49+02:00'
-    currentBMI: 35.73
-    currentBpSystolic: 177
-    currentBpDiastolic: 71
-    currentWeightInKg: 99
-    currentWaistInCm: 112.91
-    currentGlucose: 100
-    currentA1c: 5.9
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f1-7ffc-b639-5fc2c66dc33a'
-  traits:
-    firstName: Jacinda
-    lastName: Stamm
-    gender: male
-    email: ema@example.com
-    birthday: '1948-04-01'
-    phone: "+418501259253"
-    address:
-      city: Irinafort
-      state: TN
-      street: 881 Konopelski Mall
-      postalCode: '61498'
-      country: US
-    createdAt: '2019-04-08T01:20:31+02:00'
-    hireDate: '2023-01-23T05:23:24+01:00'
-    currentBMI: 33.16
-    currentBpSystolic: 113
-    currentBpDiastolic: 103
-    currentWeightInKg: 84
-    currentWaistInCm: 99.82
-    currentGlucose: 83
-    currentA1c: 4.1
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f2-7f0e-b292-4f36c19f023b'
-  traits:
-    firstName: Stefania
-    lastName: Weimann
-    gender: female
-    email: austin@example.com
-    birthday: '1941-09-10'
-    phone: "+558384986891"
-    address:
-      city: Arlyneburgh
-      state: AK
-      street: 272 Leannon Drive
-      postalCode: '49222'
-      country: US
-    createdAt: '2021-08-20T06:35:00+02:00'
-    hireDate: '2020-01-12T09:19:25+01:00'
-    currentBMI: 31.55
-    currentBpSystolic: 175
-    currentBpDiastolic: 72
-    currentWeightInKg: 60
-    currentWaistInCm: 102.16
-    currentGlucose: 86
-    currentA1c: 4.64
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f2-74fb-a043-0208561ac99a'
-  traits:
-    firstName: Jenell
-    lastName: Gusikowski
-    gender: female
-    email: basil.jast@example.com
-    birthday: '1968-08-17'
-    phone: "+634643209850"
-    address:
-      city: Jasminville
-      state: OK
-      street: 91103 Judson Viaduct
-      postalCode: 19503-2969
-      country: US
-    createdAt: '2014-06-24T00:13:05+02:00'
-    hireDate: '2018-07-28T13:12:41+02:00'
-    currentBMI: 28.5
-    currentBpSystolic: 128
-    currentBpDiastolic: 85
-    currentWeightInKg: 35
-    currentWaistInCm: 70.83
-    currentGlucose: 99
-    currentA1c: 6.72
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f2-7483-8c3c-4691f8a5bded'
-  traits:
-    firstName: Eldon
-    lastName: Berge
-    gender: male
-    email: lucien@example.com
-    birthday: '1942-05-22'
-    phone: "+344526482705"
-    address:
-      city: Lesland
-      state: DE
-      street: 99809 Lubowitz Knoll
-      postalCode: '97811'
-      country: US
-    createdAt: '2014-03-21T16:20:38+01:00'
-    hireDate: '2020-10-11T20:27:30+02:00'
-    currentBMI: 31.8
-    currentBpSystolic: 110
-    currentBpDiastolic: 84
-    currentWeightInKg: 58
-    currentWaistInCm: 73.99
-    currentGlucose: 80
-    currentA1c: 5.82
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f3-7a05-80c8-d461eef0753e'
-  traits:
-    firstName: Elias
-    lastName: Keebler
-    gender: female
-    email: sanora_mitchell@example.com
-    birthday: '1935-05-31'
-    phone: "+301419801323"
-    address:
-      city: East Frankshire
-      state: MO
-      street: 6271 Cormier Mountain
-      postalCode: '50558'
-      country: US
-    createdAt: '2019-12-09T11:35:56+01:00'
-    hireDate: '2019-08-12T05:27:43+02:00'
-    currentBMI: 18.88
-    currentBpSystolic: 153
-    currentBpDiastolic: 64
-    currentWeightInKg: 60
-    currentWaistInCm: 93.14
-    currentGlucose: 77
-    currentA1c: 7.87
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f3-7628-8067-a3970d05b3bf'
-  traits:
-    firstName: Minh
-    lastName: Stoltenberg
-    gender: female
-    email: remedios_stehr@example.com
-    birthday: '1992-05-11'
-    phone: "+304867945036"
-    address:
-      city: Gerholdport
-      state: UT
-      street: 4773 Witting Stream
-      postalCode: '10314'
-      country: US
-    createdAt: '2019-11-03T23:03:23+01:00'
-    hireDate: '2023-09-30T05:22:00+02:00'
-    currentBMI: 19.03
-    currentBpSystolic: 118
-    currentBpDiastolic: 105
-    currentWeightInKg: 94
-    currentWaistInCm: 50.68
-    currentGlucose: 79
-    currentA1c: 7.38
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f4-7dc8-b358-4ccc0a15f9d7'
-  traits:
-    firstName: Abel
-    lastName: Hettinger
-    gender: male
-    email: dayle_purdy@example.com
-    birthday: '1993-12-07'
-    phone: "+74817835139"
-    address:
-      city: East Jakeland
-      state: WV
-      street: 8694 Markus Ports
-      postalCode: 92632-3156
-      country: US
-    createdAt: '2014-10-14T23:17:35+02:00'
-    hireDate: '2021-09-15T02:51:56+02:00'
-    currentBMI: 28.09
-    currentBpSystolic: 153
-    currentBpDiastolic: 99
-    currentWeightInKg: 89
-    currentWaistInCm: 54.83
-    currentGlucose: 72
-    currentA1c: 4.01
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f4-7e66-a031-6c44e052c2a3'
-  traits:
-    firstName: Denisse
-    lastName: Reynolds
-    gender: male
-    email: tanner_homenick@example.com
-    birthday: '1946-09-15'
-    phone: "+664908926869"
-    address:
-      city: North Sonny
-      state: NY
-      street: 69973 Marvin Vista
-      postalCode: 34962-0369
-      country: US
-    createdAt: '2013-11-21T18:42:11+01:00'
-    hireDate: '2020-06-14T13:59:28+02:00'
-    currentBMI: 30.2
-    currentBpSystolic: 113
-    currentBpDiastolic: 94
-    currentWeightInKg: 95
-    currentWaistInCm: 68.69
-    currentGlucose: 80
-    currentA1c: 5.08
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f5-7399-80d4-45164a50ff9a'
-  traits:
-    firstName: Homer
-    lastName: Zemlak
-    gender: female
-    email: eddie@example.com
-    birthday: '2003-02-03'
-    phone: "+551566523987"
-    address:
-      city: Greenfelderbury
-      state: MO
-      street: 416 Weimann Pine
-      postalCode: 90857-3120
-      country: US
-    createdAt: '2023-12-08T16:04:03+01:00'
-    hireDate: '2018-12-15T16:39:53+01:00'
-    currentBMI: 30.33
-    currentBpSystolic: 132
-    currentBpDiastolic: 105
-    currentWeightInKg: 125
-    currentWaistInCm: 100.85
-    currentGlucose: 70
-    currentA1c: 7.09
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f5-78f0-8373-bc3379c6c108'
-  traits:
-    firstName: Levi
-    lastName: Gleichner
-    gender: female
-    email: garnett@example.com
-    birthday: '1997-02-25'
-    phone: "+658732884760"
-    address:
-      city: Adamsbury
-      state: UT
-      street: 959 Bergstrom Cape
-      postalCode: '01048'
-      country: US
-    createdAt: '2018-07-29T10:27:29+02:00'
-    hireDate: '2021-06-25T04:21:28+02:00'
-    currentBMI: 31.68
-    currentBpSystolic: 145
-    currentBpDiastolic: 85
-    currentWeightInKg: 83
-    currentWaistInCm: 76.39
-    currentGlucose: 93
-    currentA1c: 5.74
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f5-76eb-bb02-3711dbfbabd1'
-  traits:
-    firstName: Luci
-    lastName: Padberg
-    gender: female
-    email: jettie@example.com
-    birthday: '1982-03-28'
-    phone: "+824583400206"
-    address:
-      city: Brentmouth
-      state: NY
-      street: 889 Paucek Highway
-      postalCode: 51552-1744
-      country: US
-    createdAt: '2015-11-10T13:23:03+01:00'
-    hireDate: '2018-12-08T07:08:40+01:00'
-    currentBMI: 28.73
-    currentBpSystolic: 156
-    currentBpDiastolic: 77
-    currentWeightInKg: 43
-    currentWaistInCm: 57.09
-    currentGlucose: 80
-    currentA1c: 6.54
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f6-7558-92c7-b321436d6d81'
-  traits:
-    firstName: Lee
-    lastName: Tillman
-    gender: female
-    email: jacob@example.com
-    birthday: '1981-01-13'
-    phone: "+644506070378"
-    address:
-      city: North Andreasmouth
-      state: MI
-      street: 9374 Kreiger Fork
-      postalCode: '84354'
-      country: US
-    createdAt: '2016-05-12T14:44:06+02:00'
-    hireDate: '2020-05-05T20:38:59+02:00'
-    currentBMI: 39.99
-    currentBpSystolic: 137
-    currentBpDiastolic: 83
-    currentWeightInKg: 64
-    currentWaistInCm: 103.27
-    currentGlucose: 99
-    currentA1c: 4.17
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f6-73f7-9e70-8017dce40664'
-  traits:
-    firstName: Emmie
-    lastName: Miller
-    gender: male
-    email: signe.auer@example.com
-    birthday: '1965-05-22'
-    phone: "+319291371933"
-    address:
-      city: West Pauleneside
-      state: VA
-      street: 525 Robbi Row
-      postalCode: 29412-7753
-      country: US
-    createdAt: '2015-07-01T09:28:12+02:00'
-    hireDate: '2019-08-06T15:26:52+02:00'
-    currentBMI: 36.39
-    currentBpSystolic: 146
-    currentBpDiastolic: 63
-    currentWeightInKg: 127
-    currentWaistInCm: 112.15
-    currentGlucose: 90
-    currentA1c: 6.42
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f7-740c-af07-49ead2ad2a5d'
-  traits:
-    firstName: Jewel
-    lastName: Shanahan
-    gender: male
-    email: fritz.dooley@example.com
-    birthday: '1965-08-07'
-    phone: "+651551443921"
-    address:
-      city: Ritchieton
-      state: UT
-      street: 43343 Kuphal Pike
-      postalCode: 79498-1815
-      country: US
-    createdAt: '2017-02-21T15:23:12+01:00'
-    hireDate: '2022-07-28T09:33:10+02:00'
-    currentBMI: 19.73
-    currentBpSystolic: 139
-    currentBpDiastolic: 78
-    currentWeightInKg: 100
-    currentWaistInCm: 72.35
-    currentGlucose: 91
-    currentA1c: 5.13
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f7-7c2f-9dbc-abdc8ff6c19f'
-  traits:
-    firstName: Shaquana
-    lastName: Powlowski
-    gender: female
-    email: leonel@example.com
-    birthday: '1933-01-23'
-    phone: "+392047085010"
-    address:
-      city: Gerlachstad
-      state: TN
-      street: 42397 Ashton Glens
-      postalCode: '69086'
-      country: US
-    createdAt: '2016-02-10T02:30:16+01:00'
-    hireDate: '2024-09-17T16:58:21+02:00'
-    currentBMI: 23.69
-    currentBpSystolic: 150
-    currentBpDiastolic: 78
-    currentWeightInKg: 114
-    currentWaistInCm: 105.47
-    currentGlucose: 85
-    currentA1c: 6.53
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f8-7a9e-b003-33347cda30b1'
-  traits:
-    firstName: Mose
-    lastName: Marvin
-    gender: female
-    email: louetta.schultz@example.com
-    birthday: '1960-02-24'
-    phone: "+467983863019"
-    address:
-      city: Port Chanell
-      state: VA
-      street: 1338 Hamill Underpass
-      postalCode: 61254-7930
-      country: US
-    createdAt: '2016-06-30T12:09:34+02:00'
-    hireDate: '2024-02-13T18:47:39+01:00'
-    currentBMI: 18.68
-    currentBpSystolic: 148
-    currentBpDiastolic: 89
-    currentWeightInKg: 55
-    currentWaistInCm: 81.3
-    currentGlucose: 74
-    currentA1c: 6.57
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f8-77a4-9fa6-e0686abfb6a5'
-  traits:
-    firstName: Nadene
-    lastName: Bahringer
-    gender: male
-    email: gladys@example.com
-    birthday: '1983-04-04'
-    phone: "+464382106803"
-    address:
-      city: West Hee
-      state: MT
-      street: 556 Schmidt Trail
-      postalCode: '77272'
-      country: US
-    createdAt: '2019-10-29T10:17:30+01:00'
-    hireDate: '2018-10-19T10:41:59+02:00'
-    currentBMI: 32.73
-    currentBpSystolic: 158
-    currentBpDiastolic: 69
-    currentWeightInKg: 80
-    currentWaistInCm: 65.16
-    currentGlucose: 70
-    currentA1c: 6.68
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f8-7e50-aedc-0354d6d1bc26'
-  traits:
-    firstName: Dessie
-    lastName: Pouros
-    gender: female
-    email: eldon@example.com
-    birthday: '1999-07-07'
-    phone: "+463929674074"
-    address:
-      city: South Flaviafurt
-      state: AK
-      street: 3942 Meagan Estate
-      postalCode: 32612-8460
-      country: US
-    createdAt: '2022-04-11T20:04:37+02:00'
-    hireDate: '2023-01-31T01:38:02+01:00'
-    currentBMI: 32.76
-    currentBpSystolic: 122
-    currentBpDiastolic: 73
-    currentWeightInKg: 105
-    currentWaistInCm: 56.44
-    currentGlucose: 89
-    currentA1c: 5.22
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f9-7804-94a1-c1ce69a2b47b'
-  traits:
-    firstName: Elissa
-    lastName: Leffler
-    gender: female
-    email: genny@example.com
-    birthday: '1963-06-23'
-    phone: "+467872308399"
-    address:
-      city: New Grover
-      state: CT
-      street: 8248 Clyde Mall
-      postalCode: 12507-3971
-      country: US
-    createdAt: '2020-12-26T19:23:21+01:00'
-    hireDate: '2021-03-23T04:53:10+01:00'
-    currentBMI: 21.99
-    currentBpSystolic: 122
-    currentBpDiastolic: 90
-    currentWeightInKg: 73
-    currentWaistInCm: 93.32
-    currentGlucose: 97
-    currentA1c: 5.03
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06f9-77df-8503-958d65ae3734'
-  traits:
-    firstName: Chet
-    lastName: Reichel
-    gender: male
-    email: jeni.casper@example.com
-    birthday: '2007-07-06'
-    phone: "+335294901353"
-    address:
-      city: Effiechester
-      state: AK
-      street: 826 Howe Ports
-      postalCode: 15176-6693
-      country: US
-    createdAt: '2015-11-19T06:11:08+01:00'
-    hireDate: '2021-08-08T03:40:54+02:00'
-    currentBMI: 19.19
-    currentBpSystolic: 154
-    currentBpDiastolic: 97
-    currentWeightInKg: 93
-    currentWaistInCm: 107.41
-    currentGlucose: 71
-    currentA1c: 7.29
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06fa-7c67-b09c-6593d2736682'
-  traits:
-    firstName: Lloyd
-    lastName: Kassulke
-    gender: male
-    email: christie@example.com
-    birthday: '1987-01-20'
-    phone: "+13178910161"
-    address:
-      city: Harrisburgh
-      state: NJ
-      street: 543 Watsica Points
-      postalCode: 26011-8728
-      country: US
-    createdAt: '2024-05-28T04:31:45+02:00'
-    hireDate: '2023-02-23T01:12:20+01:00'
-    currentBMI: 38.13
-    currentBpSystolic: 117
-    currentBpDiastolic: 79
-    currentWeightInKg: 117
-    currentWaistInCm: 107.91
-    currentGlucose: 93
-    currentA1c: 4.44
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06fa-72b9-a473-bc8ad07bf75e'
-  traits:
-    firstName: Jana
-    lastName: Robel
-    gender: male
-    email: whitney@example.com
-    birthday: '1937-07-13'
-    phone: "+349693021521"
-    address:
-      city: South Pattimouth
-      state: NE
-      street: 179 Tromp Camp
-      postalCode: 87314-9005
-      country: US
-    createdAt: '2018-01-13T19:54:04+01:00'
-    hireDate: '2023-12-24T05:46:22+01:00'
-    currentBMI: 21.25
-    currentBpSystolic: 174
-    currentBpDiastolic: 89
-    currentWeightInKg: 48
-    currentWaistInCm: 107.7
-    currentGlucose: 80
-    currentA1c: 4.71
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06fb-7916-a35a-23d0843d22b6'
-  traits:
-    firstName: Korey
-    lastName: Gerlach
-    gender: male
-    email: octavio@example.com
-    birthday: '1943-08-20'
-    phone: "+827482023253"
-    address:
-      city: North Dorrischester
-      state: CA
-      street: 16875 Robel Crossroad
-      postalCode: 66092-4713
-      country: US
-    createdAt: '2014-07-08T16:43:07+02:00'
-    hireDate: '2023-05-03T08:11:16+02:00'
-    currentBMI: 23.21
-    currentBpSystolic: 150
-    currentBpDiastolic: 65
-    currentWeightInKg: 63
-    currentWaistInCm: 94.69
-    currentGlucose: 73
-    currentA1c: 4.21
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06fb-7f90-b3e4-03a66f7b59a1'
-  traits:
-    firstName: Geraldo
-    lastName: Altenwerth
-    gender: male
-    email: wilson.lehner@example.com
-    birthday: '1977-04-01'
-    phone: "+642119989305"
-    address:
-      city: Abdulbury
-      state: CA
-      street: 961 Hermann Pines
-      postalCode: 22311-2582
-      country: US
-    createdAt: '2022-01-29T19:21:36+01:00'
-    hireDate: '2021-06-27T05:22:14+02:00'
-    currentBMI: 34.09
-    currentBpSystolic: 122
-    currentBpDiastolic: 100
-    currentWeightInKg: 129
-    currentWaistInCm: 56.39
-    currentGlucose: 80
-    currentA1c: 6.0
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06fc-751d-8548-56e48298d80f'
-  traits:
-    firstName: Rosalba
-    lastName: Zboncak
-    gender: female
-    email: milagros_powlowski@example.com
-    birthday: '1952-08-10'
-    phone: "+8526594300999"
-    address:
-      city: Klockomouth
-      state: AZ
-      street: 4824 Tawanna Plaza
-      postalCode: '36219'
-      country: US
-    createdAt: '2018-09-27T06:02:59+02:00'
-    hireDate: '2021-03-15T20:24:14+01:00'
-    currentBMI: 38.7
-    currentBpSystolic: 163
-    currentBpDiastolic: 73
-    currentWeightInKg: 101
-    currentWaistInCm: 105.11
-    currentGlucose: 99
-    currentA1c: 6.58
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06fc-79b5-b0e7-4e59c285d84a'
-  traits:
-    firstName: Jeffery
-    lastName: Abernathy
-    gender: female
-    email: liane_thompson@example.com
-    birthday: '1953-05-24'
-    phone: "+336105154211"
-    address:
-      city: South Jamieland
-      state: WA
-      street: 4098 MacGyver Hollow
-      postalCode: 43873-2136
-      country: US
-    createdAt: '2020-02-18T07:53:51+01:00'
-    hireDate: '2022-02-03T20:46:30+01:00'
-    currentBMI: 26.74
-    currentBpSystolic: 149
-    currentBpDiastolic: 80
-    currentWeightInKg: 51
-    currentWaistInCm: 80.8
-    currentGlucose: 96
-    currentA1c: 5.97
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06fc-7e5c-a6fd-f56576f333b4'
-  traits:
-    firstName: Felix
-    lastName: Leuschke
-    gender: female
-    email: francie_daniel@example.com
-    birthday: '2009-12-12'
-    phone: "+868911007683"
-    address:
-      city: Horaceburgh
-      state: ME
-      street: 7227 Connelly Vista
-      postalCode: '46528'
-      country: US
-    createdAt: '2022-02-08T00:24:23+01:00'
-    hireDate: '2022-03-07T05:41:00+01:00'
-    currentBMI: 40.74
-    currentBpSystolic: 143
-    currentBpDiastolic: 66
-    currentWeightInKg: 59
-    currentWaistInCm: 77.04
-    currentGlucose: 96
-    currentA1c: 4.53
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06fd-724b-aa14-024d1781a237'
-  traits:
-    firstName: Whitney
-    lastName: Doyle
-    gender: male
-    email: madonna.bogisich@example.com
-    birthday: '1958-11-22'
-    phone: "+653661094254"
-    address:
-      city: Forrestside
-      state: GA
-      street: 55669 Malik Squares
-      postalCode: '44163'
-      country: US
-    createdAt: '2015-09-28T00:16:18+02:00'
-    hireDate: '2022-12-24T04:21:06+01:00'
-    currentBMI: 26.76
-    currentBpSystolic: 165
-    currentBpDiastolic: 72
-    currentWeightInKg: 91
-    currentWaistInCm: 105.08
-    currentGlucose: 71
-    currentA1c: 4.89
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06fe-7d33-b804-b75f0111cabe'
-  traits:
-    firstName: Miguel
-    lastName: Cole
-    gender: male
-    email: shelton_hintz@example.com
-    birthday: '1944-12-29'
-    phone: "+417609183658"
-    address:
-      city: Kraigfort
-      state: AR
-      street: 18274 Reichert Mountain
-      postalCode: '07000'
-      country: US
-    createdAt: '2018-06-05T08:25:51+02:00'
-    hireDate: '2021-09-19T21:11:20+02:00'
-    currentBMI: 33.93
-    currentBpSystolic: 176
-    currentBpDiastolic: 82
-    currentWeightInKg: 35
-    currentWaistInCm: 101.64
-    currentGlucose: 100
-    currentA1c: 7.56
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06fe-7b7c-b0b9-0c8d92c91f5b'
-  traits:
-    firstName: Leann
-    lastName: Gerlach
-    gender: male
-    email: clarinda_morar@example.com
-    birthday: '1963-12-31'
-    phone: "+661178796335"
-    address:
-      city: South Kimberleehaven
-      state: WA
-      street: 37769 Kacey Court
-      postalCode: '42111'
-      country: US
-    createdAt: '2020-10-25T18:44:20+01:00'
-    hireDate: '2023-05-30T00:41:02+02:00'
-    currentBMI: 23.4
-    currentBpSystolic: 116
-    currentBpDiastolic: 82
-    currentWeightInKg: 104
-    currentWaistInCm: 87.37
-    currentGlucose: 88
-    currentA1c: 4.2
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06ff-7dd9-983f-4c4160dc14b8'
-  traits:
-    firstName: Un
-    lastName: Upton
-    gender: male
-    email: isiah@example.com
-    birthday: '1949-12-20'
-    phone: "+815264665764"
-    address:
-      city: Debrahton
-      state: MN
-      street: 8708 McKenzie Plaza
-      postalCode: '08053-1108'
-      country: US
-    createdAt: '2020-02-19T17:23:24+01:00'
-    hireDate: '2021-04-12T21:14:08+02:00'
-    currentBMI: 38.17
-    currentBpSystolic: 176
-    currentBpDiastolic: 62
-    currentWeightInKg: 74
-    currentWaistInCm: 57.78
-    currentGlucose: 73
-    currentA1c: 6.69
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06ff-7d3b-90d2-8ab1b3c1a03a'
-  traits:
-    firstName: Tanisha
-    lastName: Hettinger
-    gender: female
-    email: isaias_wintheiser@example.com
-    birthday: '1933-05-14'
-    phone: "+555558730879"
-    address:
-      city: New Santana
+  - firstName: Kandy
+    type: string
+  - lastName: Von
+    type: string
+  - gender: male
+    type: string
+  - email: kathyrn.doyle@example.com
+    type: string
+  - birthday: '1989-05-18'
+    type: datetime
+  - phone: "+331032477380"
+    type: string
+  - address:
+      city: Lefflerland
       state: IL
-      street: 7328 Schimmel Canyon
-      postalCode: 12807-2934
+      street: 89534 Lenard Burg
+      postalCode: '22310'
       country: US
-    createdAt: '2023-03-26T10:59:08+02:00'
-    hireDate: '2019-05-04T17:50:17+02:00'
-    currentBMI: 38.2
-    currentBpSystolic: 159
-    currentBpDiastolic: 104
-    currentWeightInKg: 82
-    currentWaistInCm: 70.01
-    currentGlucose: 78
-    currentA1c: 5.01
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-06ff-7e9e-ab1f-97c47427d294'
+    type: string
+  - createdAt: '2023-02-04T15:55:04+01:00'
+    type: datetime
+  - hireDate: '2022-04-15T19:03:32+02:00'
+    type: datetime
+  - currentBMI: 35.95
+    type: numeric
+  - currentBpSystolic: 139
+    type: numeric
+  - currentBpDiastolic: 92
+    type: numeric
+  - currentWeightInKg: 63
+    type: numeric
+  - currentWaistInCm: 101.9
+    type: numeric
+  - currentGlucose: 70
+    type: numeric
+  - currentA1c: 5.55
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8904-7115-81c8-dfc4ca950b3f'
   traits:
-    firstName: Eusebia
-    lastName: Orn
-    gender: female
-    email: kristofer_herzog@example.com
-    birthday: '1937-12-28'
-    phone: "+627163808031"
-    address:
-      city: Gradychester
-      state: AZ
-      street: 29595 Stroman Mews
-      postalCode: 50505-1606
+  - firstName: Tandra
+    type: string
+  - lastName: Anderson
+    type: string
+  - gender: male
+    type: string
+  - email: marin.schimmel@example.com
+    type: string
+  - birthday: '1944-08-12'
+    type: datetime
+  - phone: "+314389503712"
+    type: string
+  - address:
+      city: Valliehaven
+      state: VA
+      street: 38742 Conn Wall
+      postalCode: '46627'
       country: US
-    createdAt: '2016-08-20T22:41:48+02:00'
-    hireDate: '2023-02-24T18:43:16+01:00'
-    currentBMI: 21.18
-    currentBpSystolic: 146
-    currentBpDiastolic: 107
-    currentWeightInKg: 88
-    currentWaistInCm: 61.44
-    currentGlucose: 84
-    currentA1c: 5.2
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-0700-79d1-afcb-34cbf6343e3c'
+    type: string
+  - createdAt: '2017-09-03T18:52:51+02:00'
+    type: datetime
+  - hireDate: '2024-05-16T13:27:08+02:00'
+    type: datetime
+  - currentBMI: 28.7
+    type: numeric
+  - currentBpSystolic: 160
+    type: numeric
+  - currentBpDiastolic: 78
+    type: numeric
+  - currentWeightInKg: 47
+    type: numeric
+  - currentWaistInCm: 61.05
+    type: numeric
+  - currentGlucose: 72
+    type: numeric
+  - currentA1c: 4.51
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8904-7f35-bf29-46f1eb1ee00b'
   traits:
-    firstName: Grant
-    lastName: Reynolds
-    gender: female
-    email: roy.rau@example.com
-    birthday: '1989-07-19'
-    phone: "+559104793795"
-    address:
-      city: Lauritown
-      state: CT
-      street: 9393 Evelyne Circle
-      postalCode: '37074'
+  - firstName: Jeanie
+    type: string
+  - lastName: Brekke
+    type: string
+  - gender: female
+    type: string
+  - email: latosha_breitenberg@example.com
+    type: string
+  - birthday: '1965-07-21'
+    type: datetime
+  - phone: "+207693836205"
+    type: string
+  - address:
+      city: North Marcelmouth
+      state: MO
+      street: 322 Cruickshank Manor
+      postalCode: '64777'
       country: US
-    createdAt: '2021-06-16T10:24:41+02:00'
-    hireDate: '2021-11-22T10:18:29+01:00'
-    currentBMI: 31.49
-    currentBpSystolic: 124
-    currentBpDiastolic: 72
-    currentWeightInKg: 115
-    currentWaistInCm: 113.12
-    currentGlucose: 81
-    currentA1c: 7.49
-  timestamp: '2024-09-19T09:40:50+02:00'
-- user_id: '0192093a-0700-7c37-a968-164fa2155c34'
+    type: string
+  - createdAt: '2023-06-08T18:26:31+02:00'
+    type: datetime
+  - hireDate: '2018-10-11T12:30:01+02:00'
+    type: datetime
+  - currentBMI: 31.08
+    type: numeric
+  - currentBpSystolic: 145
+    type: numeric
+  - currentBpDiastolic: 68
+    type: numeric
+  - currentWeightInKg: 35
+    type: numeric
+  - currentWaistInCm: 106.06
+    type: numeric
+  - currentGlucose: 90
+    type: numeric
+  - currentA1c: 5.22
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8905-7458-8d1a-157db48ea385'
   traits:
-    firstName: Jacquie
-    lastName: Fay
-    gender: male
-    email: stacey@example.com
-    birthday: '1978-10-25'
-    phone: "+344835542117"
-    address:
-      city: Port Bebeland
+  - firstName: Guillermo
+    type: string
+  - lastName: Murray
+    type: string
+  - gender: male
+    type: string
+  - email: curt@example.com
+    type: string
+  - birthday: '2007-03-03'
+    type: datetime
+  - phone: "+491026151334"
+    type: string
+  - address:
+      city: Port Moses
+      state: IA
+      street: 7442 Roob Inlet
+      postalCode: '00647'
+      country: US
+    type: string
+  - createdAt: '2024-01-07T14:28:44+01:00'
+    type: datetime
+  - hireDate: '2018-12-12T16:54:32+01:00'
+    type: datetime
+  - currentBMI: 30.44
+    type: numeric
+  - currentBpSystolic: 131
+    type: numeric
+  - currentBpDiastolic: 109
+    type: numeric
+  - currentWeightInKg: 68
+    type: numeric
+  - currentWaistInCm: 62.76
+    type: numeric
+  - currentGlucose: 83
+    type: numeric
+  - currentA1c: 4.7
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8905-7ffd-a8a9-71f664c7660a'
+  traits:
+  - firstName: Lester
+    type: string
+  - lastName: Corwin
+    type: string
+  - gender: female
+    type: string
+  - email: odelia@example.com
+    type: string
+  - birthday: '1987-01-11'
+    type: datetime
+  - phone: "+551283476134"
+    type: string
+  - address:
+      city: East Kai
+      state: AK
+      street: 441 Ron Causeway
+      postalCode: 93889-4334
+      country: US
+    type: string
+  - createdAt: '2014-05-19T13:00:51+02:00'
+    type: datetime
+  - hireDate: '2022-04-26T21:40:17+02:00'
+    type: datetime
+  - currentBMI: 19.49
+    type: numeric
+  - currentBpSystolic: 143
+    type: numeric
+  - currentBpDiastolic: 73
+    type: numeric
+  - currentWeightInKg: 128
+    type: numeric
+  - currentWaistInCm: 89.01
+    type: numeric
+  - currentGlucose: 98
+    type: numeric
+  - currentA1c: 7.67
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8906-7483-b0bb-78fcaa6c5d56'
+  traits:
+  - firstName: Seema
+    type: string
+  - lastName: Daugherty
+    type: string
+  - gender: male
+    type: string
+  - email: maximina@example.com
+    type: string
+  - birthday: '1998-10-24'
+    type: datetime
+  - phone: "+662335375646"
+    type: string
+  - address:
+      city: North Art
       state: NE
-      street: 605 Fahey Isle
-      postalCode: '88093'
+      street: 20401 Lebsack Street
+      postalCode: '00591-4665'
       country: US
-    createdAt: '2024-07-01T06:14:29+02:00'
-    hireDate: '2020-11-17T22:49:06+01:00'
-    currentBMI: 30.74
-    currentBpSystolic: 161
-    currentBpDiastolic: 62
-    currentWeightInKg: 109
-    currentWaistInCm: 101.15
-    currentGlucose: 84
-    currentA1c: 6.35
-  timestamp: '2024-09-19T09:40:50+02:00'
+    type: string
+  - createdAt: '2014-03-07T19:31:46+01:00'
+    type: datetime
+  - hireDate: '2024-05-21T09:44:53+02:00'
+    type: datetime
+  - currentBMI: 18.65
+    type: numeric
+  - currentBpSystolic: 166
+    type: numeric
+  - currentBpDiastolic: 88
+    type: numeric
+  - currentWeightInKg: 47
+    type: numeric
+  - currentWaistInCm: 92.27
+    type: numeric
+  - currentGlucose: 87
+    type: numeric
+  - currentA1c: 6.21
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8906-7dfa-8d86-b04d097d0bb5'
+  traits:
+  - firstName: Damon
+    type: string
+  - lastName: Frami
+    type: string
+  - gender: female
+    type: string
+  - email: royce@example.com
+    type: string
+  - birthday: '1968-12-29'
+    type: datetime
+  - phone: "+655795987931"
+    type: string
+  - address:
+      city: Hodkiewiczchester
+      state: HI
+      street: 849 Cole Parkway
+      postalCode: '77566'
+      country: US
+    type: string
+  - createdAt: '2013-12-07T23:21:37+01:00'
+    type: datetime
+  - hireDate: '2021-04-02T20:42:22+02:00'
+    type: datetime
+  - currentBMI: 30.24
+    type: numeric
+  - currentBpSystolic: 158
+    type: numeric
+  - currentBpDiastolic: 95
+    type: numeric
+  - currentWeightInKg: 94
+    type: numeric
+  - currentWaistInCm: 105.19
+    type: numeric
+  - currentGlucose: 82
+    type: numeric
+  - currentA1c: 4.56
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8906-762f-bebb-5132bae9e038'
+  traits:
+  - firstName: Zackary
+    type: string
+  - lastName: Labadie
+    type: string
+  - gender: male
+    type: string
+  - email: yu_bernier@example.com
+    type: string
+  - birthday: '1970-09-08'
+    type: datetime
+  - phone: "+301903045603"
+    type: string
+  - address:
+      city: South Karinborough
+      state: AZ
+      street: 64782 Renaldo Locks
+      postalCode: '65097'
+      country: US
+    type: string
+  - createdAt: '2023-12-05T22:01:59+01:00'
+    type: datetime
+  - hireDate: '2018-06-22T15:54:05+02:00'
+    type: datetime
+  - currentBMI: 31.52
+    type: numeric
+  - currentBpSystolic: 160
+    type: numeric
+  - currentBpDiastolic: 62
+    type: numeric
+  - currentWeightInKg: 52
+    type: numeric
+  - currentWaistInCm: 62.71
+    type: numeric
+  - currentGlucose: 77
+    type: numeric
+  - currentA1c: 7.16
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8907-79ab-a95c-a619b34c461a'
+  traits:
+  - firstName: Karyn
+    type: string
+  - lastName: Bednar
+    type: string
+  - gender: male
+    type: string
+  - email: margarett@example.com
+    type: string
+  - birthday: '1974-06-16'
+    type: datetime
+  - phone: "+8522149542297"
+    type: string
+  - address:
+      city: McClureview
+      state: NC
+      street: 9574 Upton Highway
+      postalCode: '33815'
+      country: US
+    type: string
+  - createdAt: '2019-01-26T18:54:06+01:00'
+    type: datetime
+  - hireDate: '2020-05-14T20:58:11+02:00'
+    type: datetime
+  - currentBMI: 28.02
+    type: numeric
+  - currentBpSystolic: 124
+    type: numeric
+  - currentBpDiastolic: 66
+    type: numeric
+  - currentWeightInKg: 55
+    type: numeric
+  - currentWaistInCm: 95.08
+    type: numeric
+  - currentGlucose: 79
+    type: numeric
+  - currentA1c: 5.32
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8907-7ff7-9b59-eaf076c61c51'
+  traits:
+  - firstName: John
+    type: string
+  - lastName: Morar
+    type: string
+  - gender: male
+    type: string
+  - email: beatrice@example.com
+    type: string
+  - birthday: '1982-11-11'
+    type: datetime
+  - phone: "+646490196760"
+    type: string
+  - address:
+      city: East Coreychester
+      state: CT
+      street: 977 Conroy Station
+      postalCode: 76471-6036
+      country: US
+    type: string
+  - createdAt: '2023-10-13T11:23:07+02:00'
+    type: datetime
+  - hireDate: '2021-07-21T05:23:31+02:00'
+    type: datetime
+  - currentBMI: 35.31
+    type: numeric
+  - currentBpSystolic: 119
+    type: numeric
+  - currentBpDiastolic: 87
+    type: numeric
+  - currentWeightInKg: 62
+    type: numeric
+  - currentWaistInCm: 107.91
+    type: numeric
+  - currentGlucose: 71
+    type: numeric
+  - currentA1c: 4.56
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8908-7630-91d5-b8e0287ba55a'
+  traits:
+  - firstName: Renea
+    type: string
+  - lastName: Reinger
+    type: string
+  - gender: female
+    type: string
+  - email: tyrell@example.com
+    type: string
+  - birthday: '1959-04-28'
+    type: datetime
+  - phone: "+635948824182"
+    type: string
+  - address:
+      city: Creminmouth
+      state: FL
+      street: 87923 Randy Shoals
+      postalCode: '09213-6425'
+      country: US
+    type: string
+  - createdAt: '2021-10-25T04:17:15+02:00'
+    type: datetime
+  - hireDate: '2024-03-15T02:09:29+01:00'
+    type: datetime
+  - currentBMI: 33.85
+    type: numeric
+  - currentBpSystolic: 126
+    type: numeric
+  - currentBpDiastolic: 68
+    type: numeric
+  - currentWeightInKg: 80
+    type: numeric
+  - currentWaistInCm: 62.89
+    type: numeric
+  - currentGlucose: 78
+    type: numeric
+  - currentA1c: 5.88
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8908-7d95-a9e1-e6dbcf06c02d'
+  traits:
+  - firstName: Colby
+    type: string
+  - lastName: Hammes
+    type: string
+  - gender: female
+    type: string
+  - email: leandro@example.com
+    type: string
+  - birthday: '1956-12-19'
+    type: datetime
+  - phone: "+19225179466"
+    type: string
+  - address:
+      city: Ricehaven
+      state: DE
+      street: 15133 Schulist Prairie
+      postalCode: '08512-4682'
+      country: US
+    type: string
+  - createdAt: '2014-09-01T11:32:19+02:00'
+    type: datetime
+  - hireDate: '2023-05-20T13:47:10+02:00'
+    type: datetime
+  - currentBMI: 39.01
+    type: numeric
+  - currentBpSystolic: 115
+    type: numeric
+  - currentBpDiastolic: 97
+    type: numeric
+  - currentWeightInKg: 39
+    type: numeric
+  - currentWaistInCm: 67.55
+    type: numeric
+  - currentGlucose: 80
+    type: numeric
+  - currentA1c: 7.41
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8909-7286-b8db-eee3122fa359'
+  traits:
+  - firstName: Rich
+    type: string
+  - lastName: Quigley
+    type: string
+  - gender: male
+    type: string
+  - email: harvey_kuvalis@example.com
+    type: string
+  - birthday: '1987-11-07'
+    type: datetime
+  - phone: "+72838939578"
+    type: string
+  - address:
+      city: Lake Maximinachester
+      state: IN
+      street: 3031 Buckridge Common
+      postalCode: '31208'
+      country: US
+    type: string
+  - createdAt: '2014-11-05T01:23:49+01:00'
+    type: datetime
+  - hireDate: '2021-10-17T08:29:21+02:00'
+    type: datetime
+  - currentBMI: 28.52
+    type: numeric
+  - currentBpSystolic: 161
+    type: numeric
+  - currentBpDiastolic: 66
+    type: numeric
+  - currentWeightInKg: 117
+    type: numeric
+  - currentWaistInCm: 108.39
+    type: numeric
+  - currentGlucose: 78
+    type: numeric
+  - currentA1c: 6.07
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8909-7f55-af85-0d0395513f5c'
+  traits:
+  - firstName: Sherwood
+    type: string
+  - lastName: Christiansen
+    type: string
+  - gender: male
+    type: string
+  - email: chris@example.com
+    type: string
+  - birthday: '1995-04-27'
+    type: datetime
+  - phone: "+469270651373"
+    type: string
+  - address:
+      city: Robertstown
+      state: NH
+      street: 660 Braun Land
+      postalCode: '05884-0912'
+      country: US
+    type: string
+  - createdAt: '2018-05-04T17:49:50+02:00'
+    type: datetime
+  - hireDate: '2018-07-18T22:06:08+02:00'
+    type: datetime
+  - currentBMI: 33.29
+    type: numeric
+  - currentBpSystolic: 117
+    type: numeric
+  - currentBpDiastolic: 107
+    type: numeric
+  - currentWeightInKg: 97
+    type: numeric
+  - currentWaistInCm: 98.19
+    type: numeric
+  - currentGlucose: 94
+    type: numeric
+  - currentA1c: 5.44
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8909-7ae5-80f2-37084b18aeb3'
+  traits:
+  - firstName: Ozzie
+    type: string
+  - lastName: Runolfsson
+    type: string
+  - gender: female
+    type: string
+  - email: valda.lockman@example.com
+    type: string
+  - birthday: '1955-04-09'
+    type: datetime
+  - phone: "+555529590260"
+    type: string
+  - address:
+      city: Deedeeburgh
+      state: WY
+      street: 1739 Ron Springs
+      postalCode: 38623-8655
+      country: US
+    type: string
+  - createdAt: '2019-08-19T00:41:11+02:00'
+    type: datetime
+  - hireDate: '2024-01-04T07:16:15+01:00'
+    type: datetime
+  - currentBMI: 34.84
+    type: numeric
+  - currentBpSystolic: 125
+    type: numeric
+  - currentBpDiastolic: 77
+    type: numeric
+  - currentWeightInKg: 47
+    type: numeric
+  - currentWaistInCm: 54.19
+    type: numeric
+  - currentGlucose: 73
+    type: numeric
+  - currentA1c: 7.28
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-890a-7eca-b9c6-3ea4bbfa730c'
+  traits:
+  - firstName: Gregory
+    type: string
+  - lastName: Stamm
+    type: string
+  - gender: male
+    type: string
+  - email: shanta@example.com
+    type: string
+  - birthday: '1971-03-08'
+    type: datetime
+  - phone: "+445872530322"
+    type: string
+  - address:
+      city: East Perryport
+      state: NJ
+      street: 3964 Satterfield Prairie
+      postalCode: 98021-8349
+      country: US
+    type: string
+  - createdAt: '2024-09-05T16:50:05+02:00'
+    type: datetime
+  - hireDate: '2024-01-06T20:04:09+01:00'
+    type: datetime
+  - currentBMI: 26.28
+    type: numeric
+  - currentBpSystolic: 141
+    type: numeric
+  - currentBpDiastolic: 93
+    type: numeric
+  - currentWeightInKg: 114
+    type: numeric
+  - currentWaistInCm: 59.19
+    type: numeric
+  - currentGlucose: 85
+    type: numeric
+  - currentA1c: 6.31
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-890a-7dc7-9d88-e07b558ad364'
+  traits:
+  - firstName: Lang
+    type: string
+  - lastName: Block
+    type: string
+  - gender: female
+    type: string
+  - email: renda@example.com
+    type: string
+  - birthday: '1986-09-18'
+    type: datetime
+  - phone: "+76033907083"
+    type: string
+  - address:
+      city: DuBuqueland
+      state: NM
+      street: 5352 Clarinda Overpass
+      postalCode: '80479'
+      country: US
+    type: string
+  - createdAt: '2018-01-05T06:48:44+01:00'
+    type: datetime
+  - hireDate: '2022-06-23T06:02:57+02:00'
+    type: datetime
+  - currentBMI: 25.96
+    type: numeric
+  - currentBpSystolic: 110
+    type: numeric
+  - currentBpDiastolic: 79
+    type: numeric
+  - currentWeightInKg: 102
+    type: numeric
+  - currentWaistInCm: 104.61
+    type: numeric
+  - currentGlucose: 88
+    type: numeric
+  - currentA1c: 7.73
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-890b-74df-8282-4d8530563aab'
+  traits:
+  - firstName: April
+    type: string
+  - lastName: Lowe
+    type: string
+  - gender: female
+    type: string
+  - email: hiram@example.com
+    type: string
+  - birthday: '2004-04-18'
+    type: datetime
+  - phone: "+549956484884"
+    type: string
+  - address:
+      city: Lake Long
+      state: OK
+      street: 20053 Imelda Walks
+      postalCode: '95336'
+      country: US
+    type: string
+  - createdAt: '2013-11-24T19:45:55+01:00'
+    type: datetime
+  - hireDate: '2023-09-11T03:59:30+02:00'
+    type: datetime
+  - currentBMI: 40.94
+    type: numeric
+  - currentBpSystolic: 179
+    type: numeric
+  - currentBpDiastolic: 89
+    type: numeric
+  - currentWeightInKg: 122
+    type: numeric
+  - currentWaistInCm: 52.07
+    type: numeric
+  - currentGlucose: 71
+    type: numeric
+  - currentA1c: 4.35
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-890b-7653-8c39-40c5bf07ca27'
+  traits:
+  - firstName: Gregorio
+    type: string
+  - lastName: Weissnat
+    type: string
+  - gender: female
+    type: string
+  - email: mallory@example.com
+    type: string
+  - birthday: '1994-04-08'
+    type: datetime
+  - phone: "+8528864715469"
+    type: string
+  - address:
+      city: Funkland
+      state: NC
+      street: 592 McCullough Radial
+      postalCode: '72926'
+      country: US
+    type: string
+  - createdAt: '2014-08-19T18:08:20+02:00'
+    type: datetime
+  - hireDate: '2024-04-18T23:02:14+02:00'
+    type: datetime
+  - currentBMI: 31.52
+    type: numeric
+  - currentBpSystolic: 123
+    type: numeric
+  - currentBpDiastolic: 100
+    type: numeric
+  - currentWeightInKg: 98
+    type: numeric
+  - currentWaistInCm: 67.32
+    type: numeric
+  - currentGlucose: 79
+    type: numeric
+  - currentA1c: 5.07
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-890b-75e4-b3fe-456a23fb9814'
+  traits:
+  - firstName: Cornell
+    type: string
+  - lastName: Ondricka
+    type: string
+  - gender: male
+    type: string
+  - email: cinda@example.com
+    type: string
+  - birthday: '1957-11-07'
+    type: datetime
+  - phone: "+449152786647"
+    type: string
+  - address:
+      city: North Dong
+      state: CO
+      street: 553 Schmidt Mountains
+      postalCode: '05994-2079'
+      country: US
+    type: string
+  - createdAt: '2014-09-10T08:21:59+02:00'
+    type: datetime
+  - hireDate: '2020-02-28T04:41:13+01:00'
+    type: datetime
+  - currentBMI: 22.44
+    type: numeric
+  - currentBpSystolic: 122
+    type: numeric
+  - currentBpDiastolic: 61
+    type: numeric
+  - currentWeightInKg: 125
+    type: numeric
+  - currentWaistInCm: 80.03
+    type: numeric
+  - currentGlucose: 95
+    type: numeric
+  - currentA1c: 7.86
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-890c-7ab6-928b-f51492404274'
+  traits:
+  - firstName: Waylon
+    type: string
+  - lastName: Fay
+    type: string
+  - gender: male
+    type: string
+  - email: manuel_raynor@example.com
+    type: string
+  - birthday: '1987-03-12'
+    type: datetime
+  - phone: "+905158748591"
+    type: string
+  - address:
+      city: Hoppefurt
+      state: NJ
+      street: 2481 Dwain Glen
+      postalCode: 45270-8650
+      country: US
+    type: string
+  - createdAt: '2021-12-23T02:23:42+01:00'
+    type: datetime
+  - hireDate: '2022-06-02T03:30:14+02:00'
+    type: datetime
+  - currentBMI: 23.21
+    type: numeric
+  - currentBpSystolic: 146
+    type: numeric
+  - currentBpDiastolic: 77
+    type: numeric
+  - currentWeightInKg: 114
+    type: numeric
+  - currentWaistInCm: 103.64
+    type: numeric
+  - currentGlucose: 78
+    type: numeric
+  - currentA1c: 4.73
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-890c-7783-8ec3-e66a653a8086'
+  traits:
+  - firstName: Jamel
+    type: string
+  - lastName: Konopelski
+    type: string
+  - gender: female
+    type: string
+  - email: forest.hahn@example.com
+    type: string
+  - birthday: '1995-05-25'
+    type: datetime
+  - phone: "+814630926260"
+    type: string
+  - address:
+      city: New Aftonport
+      state: CT
+      street: 392 Kautzer Way
+      postalCode: 40982-0991
+      country: US
+    type: string
+  - createdAt: '2022-03-21T14:36:13+01:00'
+    type: datetime
+  - hireDate: '2020-08-18T10:52:16+02:00'
+    type: datetime
+  - currentBMI: 36.8
+    type: numeric
+  - currentBpSystolic: 150
+    type: numeric
+  - currentBpDiastolic: 107
+    type: numeric
+  - currentWeightInKg: 94
+    type: numeric
+  - currentWaistInCm: 111.01
+    type: numeric
+  - currentGlucose: 75
+    type: numeric
+  - currentA1c: 6.38
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-890d-72ac-b33a-8629ae24eb67'
+  traits:
+  - firstName: Stacey
+    type: string
+  - lastName: Welch
+    type: string
+  - gender: female
+    type: string
+  - email: carry@example.com
+    type: string
+  - birthday: '1937-12-23'
+    type: datetime
+  - phone: "+625029186989"
+    type: string
+  - address:
+      city: South Coraliehaven
+      state: MD
+      street: 7924 Drucilla Centers
+      postalCode: '06613'
+      country: US
+    type: string
+  - createdAt: '2018-01-06T19:10:46+01:00'
+    type: datetime
+  - hireDate: '2024-09-20T09:30:26+02:00'
+    type: datetime
+  - currentBMI: 20.77
+    type: numeric
+  - currentBpSystolic: 136
+    type: numeric
+  - currentBpDiastolic: 98
+    type: numeric
+  - currentWeightInKg: 43
+    type: numeric
+  - currentWaistInCm: 102.27
+    type: numeric
+  - currentGlucose: 95
+    type: numeric
+  - currentA1c: 7.31
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-890d-7154-b37d-643690fe5875'
+  traits:
+  - firstName: Mariel
+    type: string
+  - lastName: Skiles
+    type: string
+  - gender: male
+    type: string
+  - email: grover_wintheiser@example.com
+    type: string
+  - birthday: '2001-08-05'
+    type: datetime
+  - phone: "+308086831631"
+    type: string
+  - address:
+      city: North Enochville
+      state: SD
+      street: 168 Lesch Stream
+      postalCode: '63185'
+      country: US
+    type: string
+  - createdAt: '2014-11-10T23:49:23+01:00'
+    type: datetime
+  - hireDate: '2018-12-07T19:50:03+01:00'
+    type: datetime
+  - currentBMI: 28.94
+    type: numeric
+  - currentBpSystolic: 178
+    type: numeric
+  - currentBpDiastolic: 71
+    type: numeric
+  - currentWeightInKg: 108
+    type: numeric
+  - currentWaistInCm: 74.06
+    type: numeric
+  - currentGlucose: 84
+    type: numeric
+  - currentA1c: 6.33
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-890e-78d8-911a-2f57f0b36282'
+  traits:
+  - firstName: Lanie
+    type: string
+  - lastName: Kulas
+    type: string
+  - gender: female
+    type: string
+  - email: reynalda@example.com
+    type: string
+  - birthday: '1940-06-30'
+    type: datetime
+  - phone: "+414321455937"
+    type: string
+  - address:
+      city: Lake Corneliusbury
+      state: UT
+      street: 776 Quinton Manor
+      postalCode: '72506'
+      country: US
+    type: string
+  - createdAt: '2022-12-08T12:39:43+01:00'
+    type: datetime
+  - hireDate: '2023-09-24T01:27:43+02:00'
+    type: datetime
+  - currentBMI: 35.44
+    type: numeric
+  - currentBpSystolic: 126
+    type: numeric
+  - currentBpDiastolic: 78
+    type: numeric
+  - currentWeightInKg: 69
+    type: numeric
+  - currentWaistInCm: 97.57
+    type: numeric
+  - currentGlucose: 96
+    type: numeric
+  - currentA1c: 7.58
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-890e-79ba-9b51-27c6db6dde84'
+  traits:
+  - firstName: Jesusa
+    type: string
+  - lastName: Schumm
+    type: string
+  - gender: female
+    type: string
+  - email: robin.boyle@example.com
+    type: string
+  - birthday: '1941-08-16'
+    type: datetime
+  - phone: "+629787270142"
+    type: string
+  - address:
+      city: New Valentine
+      state: OK
+      street: 33095 Selene Pines
+      postalCode: '05935-2802'
+      country: US
+    type: string
+  - createdAt: '2023-02-19T00:48:35+01:00'
+    type: datetime
+  - hireDate: '2018-10-24T04:03:18+02:00'
+    type: datetime
+  - currentBMI: 24.05
+    type: numeric
+  - currentBpSystolic: 110
+    type: numeric
+  - currentBpDiastolic: 81
+    type: numeric
+  - currentWeightInKg: 124
+    type: numeric
+  - currentWaistInCm: 106.94
+    type: numeric
+  - currentGlucose: 89
+    type: numeric
+  - currentA1c: 7.42
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-890f-7f68-8b64-0849f814623f'
+  traits:
+  - firstName: Kendrick
+    type: string
+  - lastName: Rath
+    type: string
+  - gender: female
+    type: string
+  - email: millard_tillman@example.com
+    type: string
+  - birthday: '1978-07-19'
+    type: datetime
+  - phone: "+73005389432"
+    type: string
+  - address:
+      city: Port Idella
+      state: KS
+      street: 10655 McLaughlin Estate
+      postalCode: '10525'
+      country: US
+    type: string
+  - createdAt: '2022-01-10T09:04:53+01:00'
+    type: datetime
+  - hireDate: '2023-02-05T04:59:54+01:00'
+    type: datetime
+  - currentBMI: 33.95
+    type: numeric
+  - currentBpSystolic: 175
+    type: numeric
+  - currentBpDiastolic: 83
+    type: numeric
+  - currentWeightInKg: 63
+    type: numeric
+  - currentWaistInCm: 89.97
+    type: numeric
+  - currentGlucose: 94
+    type: numeric
+  - currentA1c: 4.29
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-890f-7720-b4eb-f4c7cfba805f'
+  traits:
+  - firstName: Doris
+    type: string
+  - lastName: Schmidt
+    type: string
+  - gender: female
+    type: string
+  - email: ross@example.com
+    type: string
+  - birthday: '2002-07-16'
+    type: datetime
+  - phone: "+443639979955"
+    type: string
+  - address:
+      city: West Kalynville
+      state: AK
+      street: 19632 Stoltenberg Flats
+      postalCode: '55601'
+      country: US
+    type: string
+  - createdAt: '2015-02-07T13:04:32+01:00'
+    type: datetime
+  - hireDate: '2020-04-17T11:45:33+02:00'
+    type: datetime
+  - currentBMI: 36.45
+    type: numeric
+  - currentBpSystolic: 113
+    type: numeric
+  - currentBpDiastolic: 75
+    type: numeric
+  - currentWeightInKg: 105
+    type: numeric
+  - currentWaistInCm: 87.19
+    type: numeric
+  - currentGlucose: 89
+    type: numeric
+  - currentA1c: 6.35
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8910-7d29-aad0-1365baa86e62'
+  traits:
+  - firstName: Mitchell
+    type: string
+  - lastName: Medhurst
+    type: string
+  - gender: male
+    type: string
+  - email: greta_nicolas@example.com
+    type: string
+  - birthday: '1961-01-30'
+    type: datetime
+  - phone: "+497446765952"
+    type: string
+  - address:
+      city: Hermanburgh
+      state: WA
+      street: 479 Gene Circles
+      postalCode: 30432-9320
+      country: US
+    type: string
+  - createdAt: '2024-03-16T01:20:26+01:00'
+    type: datetime
+  - hireDate: '2019-12-28T17:42:22+01:00'
+    type: datetime
+  - currentBMI: 35.0
+    type: numeric
+  - currentBpSystolic: 143
+    type: numeric
+  - currentBpDiastolic: 85
+    type: numeric
+  - currentWeightInKg: 119
+    type: numeric
+  - currentWaistInCm: 82.38
+    type: numeric
+  - currentGlucose: 99
+    type: numeric
+  - currentA1c: 4.98
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8910-7077-89a3-d89e09b65292'
+  traits:
+  - firstName: Lance
+    type: string
+  - lastName: Bruen
+    type: string
+  - gender: female
+    type: string
+  - email: larhonda_braun@example.com
+    type: string
+  - birthday: '1957-12-12'
+    type: datetime
+  - phone: "+441096220979"
+    type: string
+  - address:
+      city: Moseville
+      state: ID
+      street: 907 Daniel Avenue
+      postalCode: '53572'
+      country: US
+    type: string
+  - createdAt: '2014-02-08T07:33:25+01:00'
+    type: datetime
+  - hireDate: '2022-12-26T00:30:55+01:00'
+    type: datetime
+  - currentBMI: 39.35
+    type: numeric
+  - currentBpSystolic: 113
+    type: numeric
+  - currentBpDiastolic: 97
+    type: numeric
+  - currentWeightInKg: 113
+    type: numeric
+  - currentWaistInCm: 85.62
+    type: numeric
+  - currentGlucose: 86
+    type: numeric
+  - currentA1c: 4.57
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8910-7e9d-ba22-2c246310703c'
+  traits:
+  - firstName: Omar
+    type: string
+  - lastName: Marquardt
+    type: string
+  - gender: female
+    type: string
+  - email: luke@example.com
+    type: string
+  - birthday: '1934-01-06'
+    type: datetime
+  - phone: "+444329966822"
+    type: string
+  - address:
+      city: Hahnfort
+      state: TN
+      street: 277 Jenette Shoal
+      postalCode: 64014-5991
+      country: US
+    type: string
+  - createdAt: '2018-03-17T06:26:53+01:00'
+    type: datetime
+  - hireDate: '2020-02-27T05:26:42+01:00'
+    type: datetime
+  - currentBMI: 35.86
+    type: numeric
+  - currentBpSystolic: 121
+    type: numeric
+  - currentBpDiastolic: 71
+    type: numeric
+  - currentWeightInKg: 66
+    type: numeric
+  - currentWaistInCm: 96.81
+    type: numeric
+  - currentGlucose: 74
+    type: numeric
+  - currentA1c: 7.01
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8911-7dea-9e95-a09c81c231c0'
+  traits:
+  - firstName: Nicol
+    type: string
+  - lastName: Cronin
+    type: string
+  - gender: male
+    type: string
+  - email: thanh@example.com
+    type: string
+  - birthday: '1970-08-25'
+    type: datetime
+  - phone: "+911049596723"
+    type: string
+  - address:
+      city: Carloport
+      state: MN
+      street: 56589 Wisozk Pines
+      postalCode: 49057-6886
+      country: US
+    type: string
+  - createdAt: '2014-11-25T01:55:43+01:00'
+    type: datetime
+  - hireDate: '2024-04-25T08:39:47+02:00'
+    type: datetime
+  - currentBMI: 19.03
+    type: numeric
+  - currentBpSystolic: 142
+    type: numeric
+  - currentBpDiastolic: 93
+    type: numeric
+  - currentWeightInKg: 90
+    type: numeric
+  - currentWaistInCm: 79.33
+    type: numeric
+  - currentGlucose: 83
+    type: numeric
+  - currentA1c: 6.15
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8911-7595-8611-8b13cf308585'
+  traits:
+  - firstName: Donald
+    type: string
+  - lastName: Rice
+    type: string
+  - gender: male
+    type: string
+  - email: will_botsford@example.com
+    type: string
+  - birthday: '2003-07-19'
+    type: datetime
+  - phone: "+917147067229"
+    type: string
+  - address:
+      city: Nikolausstad
+      state: SD
+      street: 7921 Shawanda Shoal
+      postalCode: '01025'
+      country: US
+    type: string
+  - createdAt: '2022-03-02T21:15:49+01:00'
+    type: datetime
+  - hireDate: '2024-02-07T10:00:15+01:00'
+    type: datetime
+  - currentBMI: 20.26
+    type: numeric
+  - currentBpSystolic: 140
+    type: numeric
+  - currentBpDiastolic: 100
+    type: numeric
+  - currentWeightInKg: 104
+    type: numeric
+  - currentWaistInCm: 105.03
+    type: numeric
+  - currentGlucose: 82
+    type: numeric
+  - currentA1c: 5.45
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8912-75e7-8cb3-b428745440f0'
+  traits:
+  - firstName: Mitch
+    type: string
+  - lastName: Hickle
+    type: string
+  - gender: female
+    type: string
+  - email: fabian.damore@example.com
+    type: string
+  - birthday: '1944-05-20'
+    type: datetime
+  - phone: "+499761988566"
+    type: string
+  - address:
+      city: Lake Brigid
+      state: OH
+      street: 2719 Cassey Mall
+      postalCode: '55334'
+      country: US
+    type: string
+  - createdAt: '2021-08-24T03:47:40+02:00'
+    type: datetime
+  - hireDate: '2023-08-31T10:52:14+02:00'
+    type: datetime
+  - currentBMI: 40.86
+    type: numeric
+  - currentBpSystolic: 165
+    type: numeric
+  - currentBpDiastolic: 101
+    type: numeric
+  - currentWeightInKg: 74
+    type: numeric
+  - currentWaistInCm: 74.69
+    type: numeric
+  - currentGlucose: 77
+    type: numeric
+  - currentA1c: 5.56
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8912-732b-9955-14a2877af710'
+  traits:
+  - firstName: Erik
+    type: string
+  - lastName: Ritchie
+    type: string
+  - gender: male
+    type: string
+  - email: brad_hauck@example.com
+    type: string
+  - birthday: '1984-04-21'
+    type: datetime
+  - phone: "+344476342364"
+    type: string
+  - address:
+      city: Maryaliceville
+      state: LA
+      street: 5821 Rolfson Port
+      postalCode: 45097-8032
+      country: US
+    type: string
+  - createdAt: '2020-02-03T04:54:07+01:00'
+    type: datetime
+  - hireDate: '2024-08-20T19:00:23+02:00'
+    type: datetime
+  - currentBMI: 33.24
+    type: numeric
+  - currentBpSystolic: 136
+    type: numeric
+  - currentBpDiastolic: 95
+    type: numeric
+  - currentWeightInKg: 49
+    type: numeric
+  - currentWaistInCm: 80.2
+    type: numeric
+  - currentGlucose: 72
+    type: numeric
+  - currentA1c: 7.75
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8913-7737-aad6-c876573ae3d5'
+  traits:
+  - firstName: Charla
+    type: string
+  - lastName: Marks
+    type: string
+  - gender: female
+    type: string
+  - email: ilene@example.com
+    type: string
+  - birthday: '2005-06-20'
+    type: datetime
+  - phone: "+441003927716"
+    type: string
+  - address:
+      city: Donnellyland
+      state: RI
+      street: 7448 Arleen Summit
+      postalCode: 10979-6120
+      country: US
+    type: string
+  - createdAt: '2019-06-21T09:01:50+02:00'
+    type: datetime
+  - hireDate: '2020-01-25T07:51:17+01:00'
+    type: datetime
+  - currentBMI: 33.69
+    type: numeric
+  - currentBpSystolic: 150
+    type: numeric
+  - currentBpDiastolic: 100
+    type: numeric
+  - currentWeightInKg: 39
+    type: numeric
+  - currentWaistInCm: 74.87
+    type: numeric
+  - currentGlucose: 94
+    type: numeric
+  - currentA1c: 5.53
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8913-7020-bbba-dd0b93f94abb'
+  traits:
+  - firstName: Garth
+    type: string
+  - lastName: Huels
+    type: string
+  - gender: male
+    type: string
+  - email: veta@example.com
+    type: string
+  - birthday: '2014-04-21'
+    type: datetime
+  - phone: "+12143945097"
+    type: string
+  - address:
+      city: Kochton
+      state: MT
+      street: 7442 Tremblay Shoals
+      postalCode: '46441'
+      country: US
+    type: string
+  - createdAt: '2019-03-31T21:53:10+02:00'
+    type: datetime
+  - hireDate: '2022-10-31T16:46:09+01:00'
+    type: datetime
+  - currentBMI: 30.59
+    type: numeric
+  - currentBpSystolic: 147
+    type: numeric
+  - currentBpDiastolic: 78
+    type: numeric
+  - currentWeightInKg: 37
+    type: numeric
+  - currentWaistInCm: 62.99
+    type: numeric
+  - currentGlucose: 71
+    type: numeric
+  - currentA1c: 6.73
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8913-7457-a6ca-d9a2760633c5'
+  traits:
+  - firstName: Bernadette
+    type: string
+  - lastName: Nikolaus
+    type: string
+  - gender: male
+    type: string
+  - email: gussie.bradtke@example.com
+    type: string
+  - birthday: '1964-05-07'
+    type: datetime
+  - phone: "+929199915417"
+    type: string
+  - address:
+      city: Port Jerrymouth
+      state: WI
+      street: 907 Florance Manor
+      postalCode: '00450'
+      country: US
+    type: string
+  - createdAt: '2024-04-10T15:00:58+02:00'
+    type: datetime
+  - hireDate: '2022-05-18T10:07:39+02:00'
+    type: datetime
+  - currentBMI: 20.03
+    type: numeric
+  - currentBpSystolic: 146
+    type: numeric
+  - currentBpDiastolic: 68
+    type: numeric
+  - currentWeightInKg: 125
+    type: numeric
+  - currentWaistInCm: 54.49
+    type: numeric
+  - currentGlucose: 96
+    type: numeric
+  - currentA1c: 4.84
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8914-7c4e-9658-9ed9e92a0e0f'
+  traits:
+  - firstName: Ermelinda
+    type: string
+  - lastName: Hodkiewicz
+    type: string
+  - gender: male
+    type: string
+  - email: elvis_glover@example.com
+    type: string
+  - birthday: '1965-03-11'
+    type: datetime
+  - phone: "+463753877868"
+    type: string
+  - address:
+      city: South Wilmerborough
+      state: OH
+      street: 25753 Goyette Forge
+      postalCode: 48112-0705
+      country: US
+    type: string
+  - createdAt: '2016-12-20T09:09:55+01:00'
+    type: datetime
+  - hireDate: '2019-02-08T18:13:46+01:00'
+    type: datetime
+  - currentBMI: 21.14
+    type: numeric
+  - currentBpSystolic: 111
+    type: numeric
+  - currentBpDiastolic: 104
+    type: numeric
+  - currentWeightInKg: 45
+    type: numeric
+  - currentWaistInCm: 98.25
+    type: numeric
+  - currentGlucose: 95
+    type: numeric
+  - currentA1c: 4.0
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8914-7fdf-8f08-a71209832b16'
+  traits:
+  - firstName: Sterling
+    type: string
+  - lastName: Blanda
+    type: string
+  - gender: female
+    type: string
+  - email: sol@example.com
+    type: string
+  - birthday: '1934-05-06'
+    type: datetime
+  - phone: "+903747048818"
+    type: string
+  - address:
+      city: Noblebury
+      state: TX
+      street: 5662 Hellen Walks
+      postalCode: 36940-9361
+      country: US
+    type: string
+  - createdAt: '2021-10-01T19:23:01+02:00'
+    type: datetime
+  - hireDate: '2020-02-01T15:56:35+01:00'
+    type: datetime
+  - currentBMI: 28.25
+    type: numeric
+  - currentBpSystolic: 162
+    type: numeric
+  - currentBpDiastolic: 70
+    type: numeric
+  - currentWeightInKg: 94
+    type: numeric
+  - currentWaistInCm: 102.34
+    type: numeric
+  - currentGlucose: 73
+    type: numeric
+  - currentA1c: 6.17
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8915-7ec1-82f5-0fdd355f5ac5'
+  traits:
+  - firstName: Logan
+    type: string
+  - lastName: Runolfsdottir
+    type: string
+  - gender: male
+    type: string
+  - email: gregg@example.com
+    type: string
+  - birthday: '1965-10-18'
+    type: datetime
+  - phone: "+867815561646"
+    type: string
+  - address:
+      city: Renatafort
+      state: SD
+      street: 366 Kelsey Parkways
+      postalCode: '95407'
+      country: US
+    type: string
+  - createdAt: '2015-10-22T04:42:43+02:00'
+    type: datetime
+  - hireDate: '2021-02-16T08:06:46+01:00'
+    type: datetime
+  - currentBMI: 30.07
+    type: numeric
+  - currentBpSystolic: 134
+    type: numeric
+  - currentBpDiastolic: 63
+    type: numeric
+  - currentWeightInKg: 87
+    type: numeric
+  - currentWaistInCm: 83.67
+    type: numeric
+  - currentGlucose: 70
+    type: numeric
+  - currentA1c: 4.24
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8916-7484-9d0d-86563bdf0b46'
+  traits:
+  - firstName: Grazyna
+    type: string
+  - lastName: Schamberger
+    type: string
+  - gender: male
+    type: string
+  - email: ji.pollich@example.com
+    type: string
+  - birthday: '1989-08-13'
+    type: datetime
+  - phone: "+557587818985"
+    type: string
+  - address:
+      city: East Ronaldfurt
+      state: KY
+      street: 81324 Mraz Port
+      postalCode: 29570-9353
+      country: US
+    type: string
+  - createdAt: '2016-01-31T16:11:00+01:00'
+    type: datetime
+  - hireDate: '2020-08-11T14:42:24+02:00'
+    type: datetime
+  - currentBMI: 24.44
+    type: numeric
+  - currentBpSystolic: 125
+    type: numeric
+  - currentBpDiastolic: 72
+    type: numeric
+  - currentWeightInKg: 71
+    type: numeric
+  - currentWaistInCm: 106.94
+    type: numeric
+  - currentGlucose: 100
+    type: numeric
+  - currentA1c: 5.88
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8916-7df4-8e04-c61ed7ae020e'
+  traits:
+  - firstName: Buck
+    type: string
+  - lastName: Feil
+    type: string
+  - gender: male
+    type: string
+  - email: caleb.hansen@example.com
+    type: string
+  - birthday: '1966-04-13'
+    type: datetime
+  - phone: "+634892468391"
+    type: string
+  - address:
+      city: Jonesfort
+      state: NE
+      street: 28934 Rosenbaum Spring
+      postalCode: '59322'
+      country: US
+    type: string
+  - createdAt: '2019-06-17T14:49:57+02:00'
+    type: datetime
+  - hireDate: '2020-11-18T15:24:05+01:00'
+    type: datetime
+  - currentBMI: 40.48
+    type: numeric
+  - currentBpSystolic: 137
+    type: numeric
+  - currentBpDiastolic: 73
+    type: numeric
+  - currentWeightInKg: 85
+    type: numeric
+  - currentWaistInCm: 97.65
+    type: numeric
+  - currentGlucose: 84
+    type: numeric
+  - currentA1c: 5.9
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8916-7304-8f8a-1ae2f5e1d6cc'
+  traits:
+  - firstName: Josh
+    type: string
+  - lastName: Skiles
+    type: string
+  - gender: male
+    type: string
+  - email: lindsay_rogahn@example.com
+    type: string
+  - birthday: '1957-04-02'
+    type: datetime
+  - phone: "+555101881618"
+    type: string
+  - address:
+      city: Millsshire
+      state: SD
+      street: 9933 Dan Rest
+      postalCode: '72543'
+      country: US
+    type: string
+  - createdAt: '2016-10-30T18:19:28+01:00'
+    type: datetime
+  - hireDate: '2019-12-23T22:50:07+01:00'
+    type: datetime
+  - currentBMI: 32.35
+    type: numeric
+  - currentBpSystolic: 170
+    type: numeric
+  - currentBpDiastolic: 107
+    type: numeric
+  - currentWeightInKg: 128
+    type: numeric
+  - currentWaistInCm: 54.4
+    type: numeric
+  - currentGlucose: 96
+    type: numeric
+  - currentA1c: 5.81
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8917-76c2-8fc3-a769152904a7'
+  traits:
+  - firstName: Anya
+    type: string
+  - lastName: Moen
+    type: string
+  - gender: female
+    type: string
+  - email: lura@example.com
+    type: string
+  - birthday: '1989-01-30'
+    type: datetime
+  - phone: "+548695747329"
+    type: string
+  - address:
+      city: Faustinoport
+      state: MT
+      street: 515 Beer Corners
+      postalCode: '21560'
+      country: US
+    type: string
+  - createdAt: '2016-10-24T13:51:05+02:00'
+    type: datetime
+  - hireDate: '2019-02-01T19:39:20+01:00'
+    type: datetime
+  - currentBMI: 34.31
+    type: numeric
+  - currentBpSystolic: 157
+    type: numeric
+  - currentBpDiastolic: 75
+    type: numeric
+  - currentWeightInKg: 100
+    type: numeric
+  - currentWaistInCm: 69.06
+    type: numeric
+  - currentGlucose: 99
+    type: numeric
+  - currentA1c: 6.39
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8917-7dac-9592-dce26cd3db89'
+  traits:
+  - firstName: Lawanna
+    type: string
+  - lastName: Abbott
+    type: string
+  - gender: male
+    type: string
+  - email: shelley.jaskolski@example.com
+    type: string
+  - birthday: '1941-08-12'
+    type: datetime
+  - phone: "+555917979452"
+    type: string
+  - address:
+      city: Lake Marcy
+      state: WA
+      street: 863 Delois Summit
+      postalCode: '15121'
+      country: US
+    type: string
+  - createdAt: '2014-08-01T09:08:47+02:00'
+    type: datetime
+  - hireDate: '2021-07-06T07:38:15+02:00'
+    type: datetime
+  - currentBMI: 38.17
+    type: numeric
+  - currentBpSystolic: 117
+    type: numeric
+  - currentBpDiastolic: 74
+    type: numeric
+  - currentWeightInKg: 101
+    type: numeric
+  - currentWaistInCm: 98.43
+    type: numeric
+  - currentGlucose: 77
+    type: numeric
+  - currentA1c: 5.24
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8918-74b9-95a0-5338a065fb5d'
+  traits:
+  - firstName: Hilaria
+    type: string
+  - lastName: Schmidt
+    type: string
+  - gender: female
+    type: string
+  - email: misty@example.com
+    type: string
+  - birthday: '1943-12-22'
+    type: datetime
+  - phone: "+206647964132"
+    type: string
+  - address:
+      city: Karlynhaven
+      state: CT
+      street: 9352 Windler Burgs
+      postalCode: 54519-4158
+      country: US
+    type: string
+  - createdAt: '2018-02-09T04:48:32+01:00'
+    type: datetime
+  - hireDate: '2019-01-13T12:25:15+01:00'
+    type: datetime
+  - currentBMI: 35.35
+    type: numeric
+  - currentBpSystolic: 169
+    type: numeric
+  - currentBpDiastolic: 97
+    type: numeric
+  - currentWeightInKg: 63
+    type: numeric
+  - currentWaistInCm: 51.13
+    type: numeric
+  - currentGlucose: 97
+    type: numeric
+  - currentA1c: 4.52
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
+- user_id: '019224b0-8918-7e24-b9bd-ab814f62e35f'
+  traits:
+  - firstName: Newton
+    type: string
+  - lastName: Rempel
+    type: string
+  - gender: male
+    type: string
+  - email: agatha@example.com
+    type: string
+  - birthday: '1937-07-29'
+    type: datetime
+  - phone: "+817722132136"
+    type: string
+  - address:
+      city: Eldorachester
+      state: OH
+      street: 8457 Rona Fields
+      postalCode: '46312'
+      country: US
+    type: string
+  - createdAt: '2016-10-03T02:26:27+02:00'
+    type: datetime
+  - hireDate: '2019-01-26T07:44:52+01:00'
+    type: datetime
+  - currentBMI: 27.28
+    type: numeric
+  - currentBpSystolic: 110
+    type: numeric
+  - currentBpDiastolic: 94
+    type: numeric
+  - currentWeightInKg: 130
+    type: numeric
+  - currentWaistInCm: 59.29
+    type: numeric
+  - currentGlucose: 75
+    type: numeric
+  - currentA1c: 6.78
+    type: numeric
+  timestamp: '2024-09-24T17:40:02+02:00'
