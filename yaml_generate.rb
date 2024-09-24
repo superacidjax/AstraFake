@@ -2,13 +2,16 @@ require 'yaml'
 require 'faker'
 require 'uuid7'
 require 'time'
+require 'fileutils'
 
 class YamlPersonGenerator
   def self.generate_yaml_for_people
     file_path = File.join(__dir__, 'config', 'people.yml')
 
+    # Create the file if it doesn't exist
     unless File.exist?(file_path)
       puts "File doesn't exist. Creating #{file_path}..."
+      FileUtils.mkdir_p(File.dirname(file_path))
       File.open(file_path, 'w') { |f| f.write({ 'people' => [] }.to_yaml) }
     end
 
@@ -17,30 +20,30 @@ class YamlPersonGenerator
     50.times do
       person = {
         'user_id' => UUID7.generate,
-        'traits' => {
-          'firstName' => Faker::Name.first_name,
-          'lastName' => Faker::Name.last_name,
-          'gender' => [ 'male', 'female' ].sample,
-          'email' => Faker::Internet.email(domain: 'example.com'),
-          'birthday' => Faker::Date.between(from: '1931-09-23', to: '2014-09-25').to_s,
-          'phone' => Faker::PhoneNumber.cell_phone_in_e164,
-          'address' => {
+        'traits' => [
+          { "firstName" => Faker::Name.first_name, 'type' => 'string' },
+          { "lastName" => Faker::Name.last_name, 'type' => 'string' },
+          { "gender" => [ 'male', 'female' ].sample, 'type' => 'string' },
+          { "email" => Faker::Internet.email(domain: 'example.com'), 'type' => 'string' },
+          { "birthday" => Faker::Date.between(from: '1931-09-23', to: '2014-09-25').to_s, 'type' => 'datetime' },
+          { "phone" => Faker::PhoneNumber.cell_phone_in_e164, 'type' => 'string' },
+          { "address" => {
             'city' => Faker::Address.city,
             'state' => Faker::Address.state_abbr,
             'street' => Faker::Address.street_address,
             'postalCode' => Faker::Address.zip_code,
             'country' => 'US'
-          },
-          'createdAt' => Faker::Time.backward(days: 4000).iso8601,
-          'hireDate' => Faker::Time.backward(days: 2300).iso8601,
-          'currentBMI' => rand(17.00..41.00).round(2),
-          'currentBpSystolic' => rand(110..180),
-          'currentBpDiastolic' => rand(60..110),
-          'currentWeightInKg' => rand(35..130),
-          'currentWaistInCm' => rand(50.00..114.00).round(2),
-          'currentGlucose' => rand(70..100).round(1),
-          'currentA1c' => rand(4.0..8.00).round(2)
-        },
+          }, 'type' => 'string' },
+          { "createdAt" => Faker::Time.backward(days: 4000).iso8601, 'type' => 'datetime' },
+          { "hireDate" => Faker::Time.backward(days: 2300).iso8601, 'type' => 'datetime' },
+          { "currentBMI" => rand(17.00..41.00).round(2), 'type' => 'numeric' },
+          { "currentBpSystolic" => rand(110..180), 'type' => 'numeric' },
+          { "currentBpDiastolic" => rand(60..110), 'type' => 'numeric' },
+          { "currentWeightInKg" => rand(35..130), 'type' => 'numeric' },
+          { "currentWaistInCm" => rand(50.00..114.00).round(2), 'type' => 'numeric' },
+          { "currentGlucose" => rand(70..100).round(1), 'type' => 'numeric' },
+          { "currentA1c" => rand(4.0..8.00).round(2), 'type' => 'numeric' }
+        ],
         'timestamp' => Time.now.iso8601
       }
 
@@ -57,8 +60,10 @@ class YamlEventGenerator
   def self.generate_yaml_for_events
     file_path = File.join(__dir__, 'config', 'events.yml')
 
+    # Create the file if it doesn't exist
     unless File.exist?(file_path)
       puts "File doesn't exist. Creating #{file_path}..."
+      FileUtils.mkdir_p(File.dirname(file_path))
       File.open(file_path, 'w') { |f| f.write({ 'events' => [] }.to_yaml) }
     end
 
@@ -68,7 +73,7 @@ class YamlEventGenerator
     user_ids = people_data['people'].map { |person| person['user_id'] }
 
     150.times do
-      user_id = "<%= user_ids.sample %>"
+      user_id = user_ids.sample
 
       event_types = [
         'New User Created',
@@ -87,31 +92,31 @@ class YamlEventGenerator
                 {
                   'event_type' => 'New User Created',
                   'user_id' => user_id,
-                  'properties' => {
-                    'source' => [ 'self-serve', 'imported', 'employer' ].sample
-                  },
-                  'timestamp' => Faker::Time.between(from: Time.now - 3 * 365 * 24 * 60 * 60, to: Time.now).iso8601  # 3 years ago to now
+                  'properties' => [
+                    { "source" => [ 'self-serve', 'imported', 'employer' ].sample, 'type' => 'string' }
+                  ],
+                  'timestamp' => Faker::Time.between(from: Time.now - 3 * 365 * 24 * 60 * 60, to: Time.now).iso8601
                 }
       when 'Screening Scheduled'
                 {
                   'event_type' => 'Screening Scheduled',
                   'user_id' => user_id,
-                  'properties' => {
-                    'clinic_name' => Faker::Company.name,
-                    'date_of_screening' => Faker::Time.between(from: Time.now, to: Time.now + 365 * 24 * 60 * 60).iso8601, # today to 1 year from now
-                    'screening_type' => [ 'Annual', 'Initial', 'Specialty' ].sample
-                  },
-                  'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601  # 6 months ago to now
+                  'properties' => [
+                    { "clinic_name" => Faker::Company.name, 'type' => 'string' },
+                    { "date_of_screening" => Faker::Time.between(from: Time.now, to: Time.now + 365 * 24 * 60 * 60).iso8601, 'type' => 'datetime' },
+                    { "screening_type" => [ 'Annual', 'Initial', 'Specialty' ].sample, 'type' => 'string' }
+                  ],
+                  'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
                 }
       when 'Screening Completed'
                 {
                   'event_type' => 'Screening Completed',
                   'user_id' => user_id,
-                  'properties' => {
-                    'clinic_name' => Faker::Company.name,
-                    'date_of_completion' => Faker::Time.between(from: Time.now, to: Time.now + 365 * 24 * 60 * 60).iso8601,
-                    'screening_type' => [ 'Annual', 'Initial', 'Specialty' ].sample
-                  },
+                  'properties' => [
+                    { "clinic_name" => Faker::Company.name, 'type' => 'string' },
+                    { "date_of_completion" => Faker::Time.between(from: Time.now - 365 * 24 * 60 * 60, to: Time.now).iso8601, 'type' => 'datetime' },
+                    { "screening_type" => [ 'Annual', 'Initial', 'Specialty' ].sample, 'type' => 'string' }
+                  ],
                   'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
                 }
       when 'New Measurement'
@@ -120,34 +125,53 @@ class YamlEventGenerator
 
                 properties = case measurement_type
                 when 'BMI'
-                               { 'type' => 'BMI', 'bmi' => rand(17.0..41.0).round(2) }
+                               [
+                                 { "measurement_type" => 'BMI', 'type' => 'string' },
+                                 { "bmi" => rand(17.0..41.0).round(2), 'type' => 'numeric' }
+                               ]
                 when 'blood pressure'
-                               { 'type' => 'blood pressure', 'systolic' => rand(110..180), 'diastolic' => rand(60..110) }
+                               [
+                                 { "measurement_type" => 'blood pressure', 'type' => 'string' },
+                                 { "systolic" => rand(110..180), 'type' => 'numeric' },
+                                 { "diastolic" => rand(60..110), 'type' => 'numeric' }
+                               ]
                 when 'weight'
-                               { 'type' => 'weight', 'weight_in_kg' => rand(35..130) }
+                               [
+                                 { "measurement_type" => 'weight', 'type' => 'string' },
+                                 { "weight_in_kg" => rand(35..130), 'type' => 'numeric' }
+                               ]
                 when 'waist'
-                               { 'type' => 'waist', 'waist_in_cm' => rand(50.0..114.0).round(2) }
+                               [
+                                 { "measurement_type" => 'waist', 'type' => 'string' },
+                                 { "waist_in_cm" => rand(50.0..114.0).round(2), 'type' => 'numeric' }
+                               ]
                 when 'glucose'
-                               { 'type' => 'glucose', 'glucose' => rand(70..100).round(1) }
+                               [
+                                 { "measurement_type" => 'glucose', 'type' => 'string' },
+                                 { "glucose" => rand(70..100).round(1), 'type' => 'numeric' }
+                               ]
                 when 'a1c'
-                               { 'type' => 'a1c', 'a1c' => rand(4.0..8.0).round(2) }
+                               [
+                                 { "measurement_type" => 'a1c', 'type' => 'string' },
+                                 { "a1c" => rand(4.0..8.0).round(2), 'type' => 'numeric' }
+                               ]
                 end
+
+                properties << { "date_of_measurement" => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601, 'type' => 'datetime' }
 
                 {
                   'event_type' => 'New Measurement',
                   'user_id' => user_id,
-                  'properties' => properties.merge({
-                    'date_of_measurement' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
-                  }),
+                  'properties' => properties,
                   'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
                 }
       when 'Claim Received'
                 {
                   'event_type' => 'Claim Received',
                   'user_id' => user_id,
-                  'properties' => {
-                    'date_of_claim' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
-                  },
+                  'properties' => [
+                    { "date_of_claim" => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601, 'type' => 'datetime' }
+                  ],
                   'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
                 }
       when 'Lab Received'
@@ -157,30 +181,33 @@ class YamlEventGenerator
                   'A1c' => rand(4.0..8.0).round(2)
                 }
                 test_type = lab_tests.keys.sample
+
                 {
                   'event_type' => 'Lab Received',
                   'user_id' => user_id,
-                  'properties' => {
-                    'date_of_lab' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601,
-                    'test_type' => test_type,
-                    'result' => lab_tests[test_type]
-                  },
+                  'properties' => [
+                    { "date_of_lab" => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601, 'type' => 'datetime' },
+                    { "test_type" => test_type, 'type' => 'string' },
+                    { "result" => lab_tests[test_type], 'type' => 'numeric' }
+                  ],
                   'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
                 }
       when 'Form Received'
                 {
                   'event_type' => 'Form Received',
                   'user_id' => user_id,
-                  'properties' => {
-                    'type' => [ 'intake', 'medical record', 'release', 'other' ].sample
-                  },
+                  'properties' => [
+                    { "form_type" => [ 'intake', 'medical record', 'release', 'other' ].sample, 'type' => 'string' }
+                  ],
                   'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
                 }
       when 'Incentive Achieved'
                 {
                   'event_type' => 'Incentive Achieved',
                   'user_id' => user_id,
-                  'properties' => {},
+                  'properties' => [
+                    { "incentive_type" => [ 'money', 'rewards', 'points', 'other' ].sample, 'type' => "string" }
+                  ],
                   'timestamp' => Faker::Time.between(from: Time.now - 6 * 30 * 24 * 60 * 60, to: Time.now).iso8601
                 }
       end
@@ -194,6 +221,6 @@ class YamlEventGenerator
   end
 end
 
-# To generate the YAML files:
+# Generate the YAML files
 YamlPersonGenerator.generate_yaml_for_people
 YamlEventGenerator.generate_yaml_for_events
