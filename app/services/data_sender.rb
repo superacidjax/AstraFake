@@ -8,7 +8,7 @@ class DataSender
   PEOPLE_ENDPOINT = "https://astrastream-f88676dd5abc.herokuapp.com/api/v1/people"
   EVENT_ENDPOINT = "https://astrastream-f88676dd5abc.herokuapp.com/api/v1/events"
 
-  def initialize(api_secret = Rails.application.credentials[:streamcamp_api_secret], people_data = nil)
+  def initialize(api_secret = Rails.application.credentials[:astra_stream_api_secret], people_data = nil)
     # Load the people data from the YAML file
     @people_data = people_data || YAML.load_file(Rails.root.join("config", "people.yml"))
     @api_secret = api_secret
