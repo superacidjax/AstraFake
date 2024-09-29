@@ -5,8 +5,8 @@ require "faker"
 require "securerandom"
 
 class DataSender
-  PEOPLE_ENDPOINT = "https://streamcamp-a2796efcaf71.herokuapp.com/api/v1/people"
-  EVENT_ENDPOINT = "https://streamcamp-a2796efcaf71.herokuapp.com/api/v1/events"
+  PEOPLE_ENDPOINT = "https://astrastream-f88676dd5abc.herokuapp.com/api/v1/people"
+  EVENT_ENDPOINT = "https://astrastream-f88676dd5abc.herokuapp.com/api/v1/events"
 
   def initialize(api_secret = Rails.application.credentials[:streamcamp_api_secret], people_data = nil)
     # Load the people data from the YAML file

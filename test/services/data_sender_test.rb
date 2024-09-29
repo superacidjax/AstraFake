@@ -1,5 +1,3 @@
-# test/services/data_sender_test.rb
-
 require "test_helper"
 require "webmock/minitest"
 
@@ -14,7 +12,7 @@ class DataSenderTest < ActiveSupport::TestCase
 
     @data_sender = DataSender.new("test_api_secret", { "people" => @people_data })
 
-    WebMock.stub_request(:any, %r{https://streamcamp-a2796efcaf71\.herokuapp\.com/.*})
+    WebMock.stub_request(:any, %r{https://astrastream-f88676dd5abc\.herokuapp\.com/.*})
            .to_return(status: 200, body: "OK")
   end
 

@@ -1,5 +1,3 @@
-# test/jobs/data_sender_job_test.rb
-
 require "test_helper"
 require "webmock/minitest"
 require "minitest/mock"
@@ -7,7 +5,8 @@ require "minitest/mock"
 class DataSenderJobTest < ActiveJob::TestCase
   def setup
     WebMock.disable_net_connect!(allow_localhost: true)
-    WebMock.stub_request(:post, %r{https://streamcamp-a2796efcaf71\.herokuapp\.com/api/v1/events})
+    WebMock.reset! # Reset WebMock to clear previous requests
+    WebMock.stub_request(:post, %r{https://astrastream-f88676dd5abc\.herokuapp\.com/api/v1/events})
            .to_return(status: 200, body: "OK")
   end
 
@@ -33,6 +32,6 @@ class DataSenderJobTest < ActiveJob::TestCase
 
     perform_enqueued_jobs
 
-    assert_requested :post, %r{https://streamcamp-a2796efcaf71\.herokuapp\.com/api/v1/events}, times: 1
+    assert_requested :post, %r{https://astrastream-f88676dd5abc\.herokuapp\.com/api/v1/events}, times: 1
   end
 end

@@ -65,7 +65,7 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment).
   config.active_job.queue_adapter = :good_job
-  # config.active_job.queue_name_prefix = "andorra_faker_production"
+  # config.active_job.queue_name_prefix = "astra_fake_production"
 
   # Disable caching for Action Mailer templates even if Action Controller
   # caching is enabled.
