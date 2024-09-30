@@ -5,9 +5,6 @@ require "faker"
 require "securerandom"
 
 class DataSender
-  PEOPLE_ENDPOINT = "https://astrastream-f88676dd5abc.herokuapp.com/api/v1/people"
-  EVENT_ENDPOINT = "https://astrastream-f88676dd5abc.herokuapp.com/api/v1/events"
-
   def initialize(api_secret = Rails.application.credentials[:astra_stream_api_secret], people_data = nil)
     # Load the people data from the YAML file
     @people_data = people_data || YAML.load_file(Rails.root.join("config", "people.yml"))
@@ -136,14 +133,14 @@ class DataSender
   end
 
   def send_post_request(person)
-    uri = URI.parse(PEOPLE_ENDPOINT)
+    uri = URI.parse("#{ASTRA_STREAM_URL}/people")
     request = Net::HTTP::Post.new(uri)
     request.basic_auth(@api_secret, "")
     request.content_type = "application/json"
     request.body = person.to_json
 
     http = Net::HTTP.new(uri.hostname, uri.port)
-    http.use_ssl = true
+    http.use_ssl = true unless Rails.env.test? || Rails.env.development?
     response = http.request(request)
 
     puts "Response Code: #{response.code}"
@@ -151,14 +148,14 @@ class DataSender
   end
 
   def send_event_post_request(event)
-    uri = URI.parse(EVENT_ENDPOINT)
+    uri = URI.parse("#{ASTRA_STREAM_URL}/events")
     request = Net::HTTP::Post.new(uri)
     request.basic_auth(@api_secret, "")
     request.content_type = "application/json"
     request.body = event.to_json
 
     http = Net::HTTP.new(uri.hostname, uri.port)
-    http.use_ssl = true
+    http.use_ssl = true unless Rails.env.test? || Rails.env.development?
     response = http.request(request)
 
     puts "Response Code: #{response.code}"

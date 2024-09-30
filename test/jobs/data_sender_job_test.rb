@@ -6,7 +6,11 @@ class DataSenderJobTest < ActiveJob::TestCase
   def setup
     WebMock.disable_net_connect!(allow_localhost: true)
     WebMock.reset! # Reset WebMock to clear previous requests
-    WebMock.stub_request(:post, %r{https://astrastream-f88676dd5abc\.herokuapp\.com/api/v1/events})
+
+    astra_stream_url = ENV.fetch("ASTRA_STREAM_URL", "http://localhost:3001/api/v1")
+    events_endpoint = "#{astra_stream_url}/events"
+
+    WebMock.stub_request(:post, %r{#{events_endpoint}})
            .to_return(status: 200, body: "OK")
   end
 
@@ -32,6 +36,9 @@ class DataSenderJobTest < ActiveJob::TestCase
 
     perform_enqueued_jobs
 
-    assert_requested :post, %r{https://astrastream-f88676dd5abc\.herokuapp\.com/api/v1/events}, times: 1
+    astra_stream_url = ENV.fetch("ASTRA_STREAM_URL", "http://localhost:3001/api/v1")
+    events_endpoint = "#{astra_stream_url}/events"
+
+    assert_requested :post, %r{#{events_endpoint}}, times: 1
   end
 end

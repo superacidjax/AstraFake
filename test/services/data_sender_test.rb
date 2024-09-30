@@ -12,8 +12,11 @@ class DataSenderTest < ActiveSupport::TestCase
 
     @data_sender = DataSender.new("test_api_secret", { "people" => @people_data })
 
-    WebMock.stub_request(:any, %r{https://astrastream-f88676dd5abc\.herokuapp\.com/.*})
-           .to_return(status: 200, body: "OK")
+    # Stub POST requests to the local Astra stream URL
+    WebMock.stub_request(:post, %r{http://localhost:3001/api/v1/people})
+      .to_return(status: 200, body: "OK")
+    WebMock.stub_request(:post, %r{http://localhost:3001/api/v1/events})
+      .to_return(status: 200, body: "OK")
   end
 
   def teardown
@@ -31,16 +34,15 @@ class DataSenderTest < ActiveSupport::TestCase
 
   def test_send_random_event_should_send_a_post_request_for_a_random_event
     @data_sender.send(:send_random_event)
-    assert_requested :post, DataSender::EVENT_ENDPOINT, times: 1
+    assert_requested :post, "http://localhost:3001/api/v1/events", times: 1
   end
 
   def test_seed_people_should_send_a_post_request_for_each_person
     @data_sender.seed_people
-    assert_requested :post, DataSender::PEOPLE_ENDPOINT, times: @people_data.size
+    assert_requested :post, "http://localhost:3001/api/v1/people", times: @people_data.size
   end
 
   def test_generate_lab_result_should_return_valid_result_based_on_test_type
-    # Directly test the generate_lab_result method
     glucose_result = @data_sender.send(:generate_lab_result, "Glucose")
     assert_includes 70..120, glucose_result, "Glucose result is out of range"
 
