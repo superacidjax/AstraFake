@@ -8,7 +8,7 @@ class DataSender
   def initialize(api_secret = Rails.application.credentials[:astra_stream_api_secret], people_data = nil)
     @people_data = people_data || YAML.load_file(Rails.root.join("config", "people.yml"))
     @api_secret = api_secret
-    @seeds_file_path = Rails.root.join("db", "seeds.rb")
+    @seeds_file_path = Rails.root.join("seeds.rb")
   end
 
   def seed_people

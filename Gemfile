@@ -3,7 +3,6 @@ source "https://rubygems.org"
 gem "rails", "~> 7.2.1"
 gem "puma", ">= 5.0"
 gem "pg"
-# Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 gem "faker"
 gem "ostruct"
@@ -16,8 +15,11 @@ group :development, :test do
 end
 
 group :production do
-  gem "skylight"
+  gem "stackprof"
+  gem "sentry-ruby"
+  gem "sentry-rails"
 end
+
 group :test do
   gem "simplecov", require: false
   gem "webmock"
